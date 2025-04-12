@@ -16,6 +16,13 @@
       <description>&lt;h2 id=&#34;profil-professionnel&#34;&gt;Profil professionnel&lt;/h2&gt;&#xA;&lt;p&gt;Attirée par les défis liés aux &lt;strong&gt;réseaux, aux systèmes et au DevOps&lt;/strong&gt;, je recherche un environnement dynamique et collaboratif où je pourrai contribuer à des projets concrets et variés. &lt;strong&gt;Ingénieure diplômée d’IMT Atlantique&lt;/strong&gt;, spécialisée en réseaux, informatique et télécommunications, j’ai un fort intérêt pour l’automatisation des infrastructures, notamment via &lt;strong&gt;Docker&lt;/strong&gt; et &lt;strong&gt;GitLab CI&lt;/strong&gt;, afin de fluidifier les déploiements et renforcer la fiabilité des systèmes. Curieuse et proactive, j’aime &lt;strong&gt;résoudre des problématiques complexes&lt;/strong&gt; et &lt;strong&gt;concevoir des solutions automatisées&lt;/strong&gt; qui améliorent&#xA;la résilience et l’efficacité des infrastructures.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>My second blog post</title>
+      <link>https://yunea.github.io/ainablog/posts/2025/second-post/</link>
+      <pubDate>Thu, 10 Apr 2025 11:15:17 +0700</pubDate>
+      <guid>https://yunea.github.io/ainablog/posts/2025/second-post/</guid>
+      <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&lt;/p&gt;&#xA;&lt;p&gt;![[home.jpg]]&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>My first blog post</title>
       <link>https://yunea.github.io/ainablog/posts/2025/my-first-blog-post/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
