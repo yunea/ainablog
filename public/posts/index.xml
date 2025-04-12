@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Aina</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 10 Apr 2025 11:15:17 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yunea.github.io/ainablog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test post 3</title>
+      <link>https://yunea.github.io/ainablog/posts/2025/test-post-3/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://yunea.github.io/ainablog/posts/2025/test-post-3/</guid>
+      <description>&lt;h2 id=&#34;contenu-de-mon-post&#34;&gt;Contenu de mon post&lt;/h2&gt;&#xA;&lt;p&gt;Tout fonctionne ??&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My second blog post</title>
       <link>https://yunea.github.io/ainablog/posts/2025/second-post/</link>
