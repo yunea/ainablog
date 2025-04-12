@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://yunea.github.io/ainablog/</loc>
     <lastmod>2025-04-12T18:04:29+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/cv/</loc>
+    <loc>https://yunea.github.io/ainablog/cv/</loc>
     <lastmod>2025-04-12T18:04:29+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/blogpost/</loc>
+    <loc>https://yunea.github.io/ainablog/tags/blogpost/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/my-first-blog-post/</loc>
+    <loc>https://yunea.github.io/ainablog/posts/2025/my-first-blog-post/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/my-second-blog-post/</loc>
+    <loc>https://yunea.github.io/ainablog/posts/2025/my-second-blog-post/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://yunea.github.io/ainablog/posts/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://yunea.github.io/ainablog/tags/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://yunea.github.io/ainablog/about/</loc>
     <lastmod>2023-10-06T20:37:29+07:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://yunea.github.io/ainablog/categories/</loc>
   </url>
 </urlset>

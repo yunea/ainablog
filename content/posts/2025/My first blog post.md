@@ -8,4 +8,4 @@ tags:
 
 # My content
 some content
-![Image Description](/images/Pasted%20image%2020250310134327.png)
+[[Pasted image 20250310134327.png]]

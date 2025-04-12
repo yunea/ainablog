@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Aina</title>
-    <link>https://example.com/posts/</link>
+    <link>https://yunea.github.io/ainablog/posts/</link>
     <description>Recent content in Posts on Aina</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yunea.github.io/ainablog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first blog post</title>
-      <link>https://example.com/posts/my-first-blog-post/</link>
+      <link>https://yunea.github.io/ainablog/posts/2025/my-first-blog-post/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/posts/my-first-blog-post/</guid>
-      <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&#xA;&lt;img src=&#34;https://example.com/images/Pasted%20image%2020250310134327.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://yunea.github.io/ainablog/posts/2025/my-first-blog-post/</guid>
+      <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&#xA;[[Pasted image 20250310134327.png]]&lt;/p&gt;</description>
     </item>
     <item>
       <title>My second blog post</title>
-      <link>https://example.com/posts/my-second-blog-post/</link>
+      <link>https://yunea.github.io/ainablog/posts/2025/my-second-blog-post/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/posts/my-second-blog-post/</guid>
-      <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.com/images/home.jpg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://yunea.github.io/ainablog/posts/2025/my-second-blog-post/</guid>
+      <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&lt;/p&gt;&#xA;&lt;p&gt;[[home.jpg]]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
