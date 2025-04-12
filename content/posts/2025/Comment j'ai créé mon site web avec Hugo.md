@@ -75,8 +75,6 @@ git config --global user.email "your email"
 Ajouter un fichier `.gitignore` pour éviter de versionner certains fichiers inutiles (comme les fichiers générés à la compilation).
 
 ```
-public/
-ressources/
 .DS_Store
 .hugo_build.lock
 ```

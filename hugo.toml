@@ -16,8 +16,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 [params.author]
 	name = 'Aïna Dirou'
 	bio = 'Ma bio'
-	avatar = '/images/nasa-astronaut-unsplash.jpg'
-	twitter = 'https://twitter.com/insertapps'
+	avatar = '/images/home.jpg'
 
 [menu] # Menu management
 	[[menu.main]]
