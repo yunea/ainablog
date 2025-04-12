@@ -2,6 +2,7 @@
 title: My first blog post
 date: 2025-04-09
 image: images/default-image.jpg
+caption: default image
 draft: false
 tags: 
  - blogpost
