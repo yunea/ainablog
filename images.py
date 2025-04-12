@@ -3,9 +3,9 @@ import re
 import shutil
 
 # Paths
-posts_dir = "/Users/ainadirou/ainablog/content/posts/"
+posts_dir = "/Users/ainadirou/ainablog/content/posts/2025"
 attachments_dir = "/Users/ainadirou/Google Drive/Mon Drive/DriveSyncFiles/obsidian_aina/Templates/Attachements/"
-static_images_dir = "/Users/ainadirou/ainablog/static/images/"
+static_images_dir = "/Users/ainadirou/ainablog/assets/images/"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
