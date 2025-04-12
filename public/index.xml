@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aina</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Aina</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Sat, 12 Apr 2025 18:04:29 +0700</lastBuildDate>
+    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://example.com/cv/</link>
+      <pubDate>Sat, 12 Apr 2025 18:04:29 +0700</pubDate>
+      <guid>https://example.com/cv/</guid>
+      <description>&lt;h2 id=&#34;this-is-my-resume&#34;&gt;This is my resume&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pehtheme Hugo&lt;/strong&gt; is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My first blog post</title>
+      <link>https://example.com/posts/my-first-blog-post/</link>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/my-first-blog-post/</guid>
+      <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&#xA;&lt;img src=&#34;https://example.com/images/Pasted%20image%2020250310134327.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My second blog post</title>
+      <link>https://example.com/posts/my-second-blog-post/</link>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/posts/my-second-blog-post/</guid>
+      <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.com/images/home.jpg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Fri, 06 Oct 2023 20:37:29 +0700</pubDate>
+      <guid>https://example.com/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pehtheme Hugo&lt;/strong&gt; is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
