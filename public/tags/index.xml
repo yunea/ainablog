@@ -36,19 +36,5 @@
       <guid>https://yunea.github.io/ainablog/tags/markdown/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Test</title>
-      <link>https://yunea.github.io/ainablog/tags/test/</link>
-      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/tags/test/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogpost</title>
-      <link>https://yunea.github.io/ainablog/tags/blogpost/</link>
-      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/tags/blogpost/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

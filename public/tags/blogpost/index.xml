@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogpost on Aina</title>
-    <link>https://yunea.github.io/ainablog/tags/blogpost/</link>
+    <link>http://localhost:1313/ainablog/tags/blogpost/</link>
     <description>Recent content in Blogpost on Aina</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yunea.github.io/ainablog/tags/blogpost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ainablog/tags/blogpost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first blog post</title>
-      <link>https://yunea.github.io/ainablog/posts/2025/my-first-blog-post/</link>
+      <link>http://localhost:1313/ainablog/posts/2025/my-first-blog-post/</link>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/posts/2025/my-first-blog-post/</guid>
+      <guid>http://localhost:1313/ainablog/posts/2025/my-first-blog-post/</guid>
       <description>&lt;h1 id=&#34;my-content&#34;&gt;My content&lt;/h1&gt;&#xA;&lt;p&gt;some content&lt;/p&gt;&#xA;&lt;p&gt;![[Pasted image 20250310134327.png]]&lt;/p&gt;</description>
     </item>
   </channel>

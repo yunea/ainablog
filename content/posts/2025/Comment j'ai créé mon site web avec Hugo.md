@@ -4,7 +4,7 @@ date: "2025-04-12"
 slug: /creation-de-site-web-avec-hugo/
 description: Étapes détaillées de la création de mon site web statique avec Hugo, depuis l'idée jusqu'à la mise en ligne.
 image: images/hugo.png
-caption: "Photo by Nasa on Unsplash"
+caption: 
 categories:
 - Web
 tags:
@@ -86,6 +86,7 @@ ressources/
 Il faut ensuite choisir un **thème** afin de l'importer. 
 
 Tous les thèmes sont disponibles ici : [https://gohugo.io](https://gohugo.io/).
+
 Le thème que j'ai choisi pour ce projet : https://themes.gohugo.io/themes/pehtheme-hugo/.
 
 ```bash
@@ -111,7 +112,7 @@ hugo server
 Le site est disponible à l'adresse suivante : http://localhost:1313/
 ### GitHub
 
-Git 
+#### Git 
 
 ```bash
 # Assurez vous d'être dans le bon dossier 
@@ -123,7 +124,7 @@ git add .
 git commit -m "Initial commit: site Hugo avec thème"
 ```
 
-Créer un nouveau dépôt sur GitHub
+#### Créer un nouveau dépôt sur GitHub
 
 Se créer un compte GitHub (si ce n'est pas fait) : https://github.com. 
 Lien vers la documentation : [Comment se créer un compte GitHub](https://docs.github.com/fr/get-started/start-your-journey/creating-an-account-on-github#signing-up-for-a-new-personal-account)
@@ -134,7 +135,7 @@ Exemple :
 - Nom du repo : `mon-blog-hugo`
 - Visibilité : Public ou Privé
 
-Générer une clé SSH pour `push` sans entrer ses identifiants à chaque fois.
+#### Générer une clé SSH pour `push` sans entrer ses identifiants à chaque fois.
 
 ```bash
 # Se déplacer dans le dossier .ssh
@@ -161,7 +162,7 @@ ssh -T git@github.com
 
 Vous pouvez maintenant cloner, puller, pousser votre dépôt sans mot de passe.
 
-Ajouter le dépôt distant à votre projet 
+#### Ajouter le dépôt distant à votre projet 
 
 ```bash
 # Assure toi d'être dans le bon dossier 
@@ -284,7 +285,6 @@ Créer ce site m’a permis de :
 
 ## 🧩 Idées d’améliorations futures
 
-- Intégrer des commentaires avec Disqus ou autre
 - Ajouter un moteur de recherche (par exemple Fuse.js)
 - Ajouter un mode sombre/clair
 - Héberger le site sur Hostinger
