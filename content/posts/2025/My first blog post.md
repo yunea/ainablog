@@ -1,6 +1,7 @@
 ---
 title: My first blog post
 date: 2025-04-09
+image: default-image.jpg
 draft: false
 tags: 
  - blogpost
