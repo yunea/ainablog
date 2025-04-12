@@ -5,7 +5,7 @@ import shutil
 # Paths
 posts_dir = "/Users/ainadirou/ainablog/content/posts/"
 attachments_dir = "/Users/ainadirou/Google Drive/Mon Drive/DriveSyncFiles/obsidian_aina/Templates/Attachements/"
-static_images_dir = "/Users/ainadirou/ainablog/assets/images/"
+static_images_dir = "/Users/ainadirou/ainablog/static/images/"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):

@@ -1,7 +1,7 @@
 ---
 title: My first blog post
 date: 2025-04-09
-image: default-image.jpg
+image: images/default-image.jpg
 draft: false
 tags: 
  - blogpost
@@ -9,4 +9,6 @@ tags:
 
 # My content
 some content
+
+
 ![[Pasted image 20250310134327.png]]
