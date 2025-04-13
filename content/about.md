@@ -1,42 +1,66 @@
 ---
-title: "About"
-date: 2023-10-06T20:37:29+07:00
+title: "À propos"
+date: 2025-04-13
 image: images/nadine-shaabana-ZPP-zP8HYG0-unsplash.jpg
 draft: false
 ---
 
-**Pehtheme Hugo** is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.
+## Salut, moi c’est Aïna 👋
 
-At **Pehtheme Hugo**, we believe that space exploration is not just a scientific endeavor; it's a human adventure. It's about the curiosity that drives us to look up at the night sky and wonder about the galaxies, stars, and planets that fill our universe.
+Je viens de terminer mes études d’**ingénieur en réseaux, informatique et télécommunications**. Actuellement en recherche d’emploi, je profite de mon temps libre pour expérimenter, créer, apprendre… et donner vie à toutes sortes de projets — que ce soit en **web**, **programmation**, **réseau** ou **système**. 
 
-## Our Mission
+Ce site est un peu mon bac à sable numérique, un espace de liberté où je partage ce que j’aime, sans me poser trop de questions. Tu y trouveras peut-être un peu de **dev**, un peu de **finance personnelle**, quelques récits de **voyage**, ou tout autre sujet qui m’inspire sur le moment.
 
-Our mission is to inspire, educate, and spark curiosity about space and astronomy. We aim to make the wonders of the cosmos accessible to everyone, from seasoned astronomers to those taking their first steps into the world of stargazing.
+J’adore voir des idées prendre vie et évoluer au fil du temps. Ce portfolio me permet de garder une trace de mes expériences, de partager ce que j’apprends, et de documenter ce que je crée — sans pression, juste pour le plaisir.
 
-Through a diverse range of articles, videos, images, and interactive tools, we strive to:
+## 🎓 Mon parcours
 
-- **Educate**: We provide well-researched, informative content that explains complex astronomical concepts in an accessible way.
+Après un **DUT Réseaux et Télécommunications** à l’IUT de Saint-Malo, j’ai poursuivi avec une formation d’**ingénieure** à l’**IMT Atlantique**, spécialisée en **réseaux, informatique et télécoms**.  
+Je suis passionnée par la tech depuis la fin du lycée, mais ce que j’aime par-dessus tout, c’est **concrétiser des idées** et **voir des projets évoluer dans le temps**.
 
-- **Inspire**: We share the breathtaking beauty of the universe through stunning images and stories of space exploration.
+> 👉 Mon [CV est disponible ici](/cv)
 
-- **Connect**: We foster a vibrant community where space enthusiasts can share their passion, ask questions, and learn from each other.
+## 💼 Compétences
 
-## What You'll Find Here
+Je suis à l’aise avec le développement web, en particulier le front-end. J’ai eu l’occasion de manipuler des technologies comme **React.js**, **HTML/CSS**, ou encore **Hugo** (ce site en est la preuve !).
 
-- **Astronomy Insights**: Dive deep into the universe with articles and guides that cover everything from the basics of stargazing to the latest discoveries in astrophysics.
+Mais mon cœur de métier, c’est avant tout les **infrastructures IT** :  
+- Administration système (Linux, Windows)  
+- Réseaux d’entreprise  
+- Automatisation (GitLab CI, Docker)  
+- Supervision & maintenance  
+- Gestion de projets IT
 
-- **Stunning Visuals**: Explore our gallery of celestial images captured by professional astronomers and space agencies, as well as astrophotography from our community members.
+### Technologies & outils :
+- HTML, CSS, JavaScript, React.js  
+- Hugo, Git, GitLab CI/CD  
+- Docker, Linux, Windows  
+- Réseaux, administration système, virtualisation
 
-- **Space Exploration Updates**: Stay informed about upcoming space missions, rocket launches, and groundbreaking discoveries in our ever-expanding cosmos.
+## 🚀 Objectif pro
 
-- **Interactive Tools**: Use our interactive sky maps and tools to plan your stargazing sessions and track celestial events.
+Je suis actuellement à la recherche d’un **CDI** dans les domaines des **systèmes, réseaux ou DevOps**.  
+Diplômée de l’IMT Atlantique, j’ai acquis une solide expérience en **administration système** (Linux/Windows), en **automatisation d’infrastructures** (CI/CD, GitLab, Docker) et en **gestion de projets IT**, grâce à mes années d’alternance chez **Alcatel-Lucent Enterprise** et **Orange**.
 
-## Our Team
+Je suis particulièrement attirée par les environnements techniques qui touchent à l'**administration**, la **maintenance** et l’**optimisation des infrastructures IT**.
 
-We are a dedicated team of space enthusiasts, writers, astronomers, and scientists who are passionate about sharing the wonders of the universe. Our combined expertise in space science, astrophotography, and science communication allows us to bring you the best of the cosmos.
+Curieuse, rigoureuse et toujours motivée à apprendre, je suis à l’écoute d’opportunités qui me permettront de continuer à progresser dans ces domaines.  
+👉 Vous pouvez consulter mon [CV ici](/cv).
 
-## Join Our Cosmic Community
+## 🌈 Et en dehors du pro ?
 
-We invite you to join us on this cosmic journey. Explore the depths of space with us, ask questions, share your own astronomical experiences, and become part of a community that looks to the stars with wonder and curiosity.
+Je suis aussi passionnée par tout un tas d’autres choses, comme :  
+🎧 la musique · 🎨 le dessin · 💪 le sport · 💸 la finance personnelle · ✈️ les voyages
 
-Let's embark on this celestial adventure together. Welcome to **My Space Theme**—where the universe unfolds before your eyes.
+J’adore explorer de nouveaux horizons, tester, créer, apprendre.  
+Je crois sincèrement que c’est cette diversité qui alimente ma créativité et ma curiosité au quotidien.
+
+## 📬 Me contacter
+
+Tu veux discuter, collaborer ou simplement dire bonjour ?  
+Voici où me retrouver :
+- 💼 [LinkedIn](https://www.linkedin.com/in/yunea)  
+- 💻 [GitHub](https://github.com/aina-dirou)  
+- ✉️ [Me contacter par mail](mailto:aina201.ad@gmail.com)
+
+_(Pas de formulaire ici, mais je réponds vite par mail !)_
