@@ -8,7 +8,7 @@
     <loc>https://yunea.github.io/ainablog/cv/</loc>
     <lastmod>2025-04-12T18:04:29+07:00</lastmod>
   </url><url>
-    <loc>https://yunea.github.io/ainablog/categories/</loc>
+    <loc>https://yunea.github.io/ainablog/cat%C3%A9gories/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yunea.github.io/ainablog/posts/2025/creation-de-site-web-avec-hugo/</loc>
@@ -29,13 +29,16 @@
     <loc>https://yunea.github.io/ainablog/posts/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunea.github.io/ainablog/categories/projet/</loc>
+    <loc>https://yunea.github.io/ainablog/cat%C3%A9gories/projet/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yunea.github.io/ainablog/tags/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunea.github.io/ainablog/categories/web/</loc>
+    <loc>https://yunea.github.io/ainablog/cat%C3%A9gories/web/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yunea.github.io/ainablog/about/</loc>
+    <lastmod>2023-10-06T20:37:29+07:00</lastmod>
   </url>
 </urlset>
