@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Aina</title>
-    <link>http://localhost:1313/ainablog/categories/</link>
+    <link>https://yunea.github.io/ainablog/categories/</link>
     <description>Recent content in Categories on Aina</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ainablog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yunea.github.io/ainablog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projet</title>
-      <link>http://localhost:1313/ainablog/categories/projet/</link>
+      <link>https://yunea.github.io/ainablog/categories/projet/</link>
       <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ainablog/categories/projet/</guid>
+      <guid>https://yunea.github.io/ainablog/categories/projet/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:1313/ainablog/categories/web/</link>
+      <link>https://yunea.github.io/ainablog/categories/web/</link>
       <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ainablog/categories/web/</guid>
+      <guid>https://yunea.github.io/ainablog/categories/web/</guid>
       <description></description>
     </item>
   </channel>

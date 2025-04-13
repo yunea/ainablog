@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Catégories on Aina</title>
-    <link>https://yunea.github.io/ainablog/cat%C3%A9gories/</link>
+    <link>http://localhost:1313/ainablog/cat%C3%A9gories/</link>
     <description>Recent content in Catégories on Aina</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yunea.github.io/ainablog/cat%C3%A9gories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ainablog/cat%C3%A9gories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projet</title>
-      <link>https://yunea.github.io/ainablog/cat%C3%A9gories/projet/</link>
+      <link>http://localhost:1313/ainablog/cat%C3%A9gories/projet/</link>
       <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/cat%C3%A9gories/projet/</guid>
+      <guid>http://localhost:1313/ainablog/cat%C3%A9gories/projet/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>https://yunea.github.io/ainablog/cat%C3%A9gories/web/</link>
+      <link>http://localhost:1313/ainablog/cat%C3%A9gories/web/</link>
       <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/cat%C3%A9gories/web/</guid>
+      <guid>http://localhost:1313/ainablog/cat%C3%A9gories/web/</guid>
       <description></description>
     </item>
   </channel>
