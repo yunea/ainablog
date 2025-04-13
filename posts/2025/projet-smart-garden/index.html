@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projet - Smart garden | Aina</title>
+
+<meta name="description" content="undertitle">
+      <link rel="stylesheet" href="/ainablog/css/main.min.584aed796ba9d245f84009d57da9662e9c02059611972780263728b442fc25ff.css" integrity="sha256-WErteWup0kX4QAnVfalmLpwCBZYRlyeAJjcotEL8Jf8=" crossorigin="anonymous">
+
+<link rel="icon" type="image/svg+xml" href="https://yunea.github.io/ainablog/favicon.svg"> 
+<link rel="icon" type="image/x-icon" href="https://yunea.github.io/ainablog/favicon.ico"> 
+<link rel="icon" type="image/png" sizes="16x16" href="https://yunea.github.io/ainablog/favicon.png"> 
+<link rel="icon" type="image/png" sizes="32x32" href="https://yunea.github.io/ainablog/favicon-32.png"> 
+<link rel="icon" type="image/png" sizes="64x64" href="https://yunea.github.io/ainablog/favicon-64.png"> 
+
+</head>
+<body>
+  <header class="py-6 border-b"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col">
+	<div class="flex items-center">
+		<div class="flex items-center">
+			<button class="flex items-center space-x-2 rounded-full border py-1 pr-[5px] pl-3 group bg-zinc-100 hover:bg-zinc-200 toggle-button" data-target="menu-bar">
+				<svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+				</svg>
+				<span class="bg-blue-500 fill-white rounded-full p-1.5">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="group-hover:animate-spin bi bi-egg-fried fill-white" viewBox="0 0 16 16">
+						<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+						<path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"></path>
+					</svg>
+				</span>
+			</button>
+			<div class="relative rounded-full py-1.5 px-6 bg-zinc-100 hover:bg-zinc-200 text-xl font-bold uppercase mx-2">
+				<h2><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="https://yunea.github.io/ainablog/">Aina</a></h2>
+			</div>
+		</div>
+		<div class="flex items-center ml-auto">
+			<button class="flex items-center rounded-full p-3 bg-zinc-100 hover:bg-zinc-200 toggle-button" data-target="search-bar">
+				<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+					<path id="path1" class="transition-all ease-linear" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+					<path id="path2" class="transition-all ease-linear hidden" d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"></path>
+				</svg>
+			</button>
+		</div>
+	</div>
+  <nav id="menu-bar" class="block mt-3 close">
+    <ul class="flex items-center flex flex-nowrap whitespace-nowrap overflow-x-auto space-x-4">
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/ainablog/">Accueil</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/ainablog/about/">À propos</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/ainablog/cv/">CV</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/ainablog/tags/">Tags</a>
+    </li>
+    <li class="my-2">
+      <a class="rounded-full border px-6 py-2 bg-zinc-100 hover:bg-zinc-200" href="/ainablog/categories/">Taxonomy</a>
+    </li>
+    </ul>
+  </nav>
+<div id="search-bar" class="block mt-3 close">
+	<form id="search" class="flex items-stretch">
+		<input class="w-full block px-6 py-2 rounded-l-full focus:outline-none border border-zinc-200" type="text" placeholder="Search...">
+		<button class="flex items-center px-7 py-2.5 rounded-r-full border border-zinc-200 ">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="group-hover:animate-pulse" viewBox="0 0 16 16">
+				<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+			</svg>
+		</button>
+	</form>
+</div>
+</div></header>
+  <main class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8"><div id="breadcrumb" class="max-w-7xl mx-auto py-8">
+	<ul class="flex space-x-4 text-sm text-zinc-500">
+		<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
+			<a href="https://yunea.github.io/ainablog/">Aina</a>
+		</li>
+		<li class="after:content-['❯'] after:ml-4 after:opacity-30 last:after:content-none uppercase">
+			<a href="https://yunea.github.io/ainablog/posts/">Posts</a>
+		</li>
+	</ul>
+</div><div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+
+  <article class="md:col-span-2 prose lg:prose-lg">
+
+    <header class="not-prose">
+
+      <h1 id="title" class="text-4xl font-bold leading-normal">Projet - Smart garden</h1>
+
+      <div id="lead" class="my-6">
+
+        <p class="font-bold">undertitle </p>
+
+      </div>
+
+      <div id="writer" class="flex items-center space-x-4">
+
+        <img class="w-12 h-12 bg-black rounded-full" src="https://yunea.github.io/ainablog/images/home.jpg" alt="Aïna Dirou avatar"
+          width="5000" height="3297">
+
+        <ul class="flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+
+          <li class="font-semibold my-2">Aïna Dirou</li>
+
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2"><time datetime="2025-04-13T00:00:00&#43;00:00">April 13, 2025</time>
+          </li>
+
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
+            6 min read
+          </li>
+
+        </ul>
+
+      </div>
+
+    </header>
+
+    <figure id="featureimage" class="rounded-xl aspect-video">
+      <img class="rounded-lg" src="https://yunea.github.io/ainablog/images/logo-reactjs_hu_291afe59ae73c5de.png" alt="" width="750"
+        height="404">
+      <figcaption class="text-center italic text-xs"></figcaption>
+
+    </figure>
+
+    <div id="content" class="mb-14">
+      <h2 id="1-état-de-lart--les-jardins-partagés-entre-écologie-et-lien-social">1. État de l&rsquo;art : les jardins partagés, entre écologie et lien social</h2>
+<p>Les jardins partagés connaissent un essor notable en France, notamment dans les zones urbaines où ils répondent à un besoin croissant de nature et de convivialité. Ces espaces verts collectifs favorisent la biodiversité, renforcent les liens sociaux et contribuent à une alimentation plus durable. Leur développement s&rsquo;inscrit dans des scénarios de transition écologique, promus par des institutions comme l&rsquo;ADEME, qui valorisent des approches frugales et coopératives.​</p>
+<h3 id="conclusion-de-létat-de-lart">Conclusion de l&rsquo;état de l&rsquo;art</h3>
+<p>Notre réflexion a débuté avec deux thèmes principaux concernant les hypothèses de départ : la gestion des ressources, notamment de l’eau et la gestion des plantes en temps réel. Dans le but d’affiner ces hypothèses, nous avons par notre recherche pu identifier des premières difficultés rencontrées dans les jardins, appréhender les solutions existantes pouvant y être liées et déterminer la liste des acteurs de ces espaces, que nous avons par la suite pu rencontrer pour confirmer notre recherche documentaire et compléter certaines informations. </p>
+<p>La problématique qui ressort de toutes ces recherches est donc “Comment faciliter l’organisation des jardins partagés qui ne possèdent pas d’animateur et fédérer les habitants lorsqu’il y a un manque de compétences techniques ?”.</p>
+<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2023/10/22/jardin-partage/">Jardin Partagé – État de l&rsquo;art</a></p>
+<h2 id="2-enquête-terrain--comprendre-les-dynamiques-locales">2. Enquête terrain : comprendre les dynamiques locales</h2>
+<p>Pour mieux appréhender les réalités des jardins partagés, une enquête de terrain a été menée à Brest. Cette étude a révélé le rôle central des collectivités locales et des associations, telles que Vert le Jardin, dans la création et la gestion de ces espaces. Elle a également mis en lumière les défis liés à la coordination entre les différents acteurs et la nécessité d&rsquo;outils facilitant l&rsquo;organisation et la communication au sein des jardins.​</p>
+<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2023/10/27/jardin-partage-enquete-terrain/">Jardin Partagé – Enquête terrain</a></p>
+<h2 id="3-solution-technique--smartgarden-une-application-au-service-des-jardiniers">3. Solution technique : SmartGarden, une application au service des jardiniers</h2>
+<p>Face aux défis identifiés, le projet SmartGarden propose une solution innovante combinant technologie et accessibilité. Il s&rsquo;agit d&rsquo;une application web connectée à des capteurs, permettant aux membres d&rsquo;un jardin partagé de :​</p>
+<ul>
+<li>Suivre en temps réel les conditions du jardin (humidité, température, etc.)​</li>
+<li>Consulter et planifier les tâches à réaliser​</li>
+<li>Accéder à des fiches pratiques pour l&rsquo;entretien des cultures​</li>
+</ul>
+<p>Le système repose sur une architecture modulaire avec un boîtier de capteurs, une base de données et une interface utilisateur développée en ReactJS. L&rsquo;objectif est de faciliter la gestion des jardins, même en l&rsquo;absence de référent, en favorisant l&rsquo;autonomie et la collaboration entre les membres.​</p>
+<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2024/01/15/jardin-partage-solution-technique/">Jardin Partagé – Solution Technique</a></p>
+<h2 id="ma-contribution-dans-ce-projet">Ma contribution dans ce projet</h2>
+<h3 id="cheffe-de-projet">Cheffe de projet</h3>
+<p>Dans le cadre de ce projet, j’ai assuré le rôle de <strong>cheffe de projet</strong>, avec pour missions principales :</p>
+<ul>
+<li>La <strong>répartition des tâches</strong> de manière équitable entre les membres de l’équipe, en tenant compte des compétences, disponibilités et intérêts de chacun ;</li>
+<li>L’<strong>animation des réunions hebdomadaires</strong>, afin de suivre l’avancement, identifier les blocages et ajuster les priorités si nécessaire ;</li>
+<li>La <strong>coordination globale de l’équipe</strong>, pour assurer la cohérence des travaux et le respect du planning.</li>
+</ul>
+<p>Nous avons adopté une organisation basée sur la <strong>méthode agile</strong>, et plus spécifiquement <strong>SCRUM</strong>, avec des sprints de trois semaines ponctués de points hebdomadaires. Chaque sprint était préparé en amont par la rédaction de user stories, l’attribution d’un poids (effort estimé) à chaque tâche, et leur organisation dans une application de gestion visuelle (type tableau Kanban). Ce cadre méthodologique nous a permis de garder une vue d’ensemble claire sur l’avancement, d’anticiper les éventuels blocages, et d’encourager une autonomie structurée au sein de l’équipe.</p>
+<h3 id="développeuse-backend">Développeuse backend</h3>
+<p>Le back-end de l’application se compose de trois éléments essentiels : le système d’exploitation, la base de données, et l’interface de programmation (API).</p>
+<h4 id="système-dexploitation">Système d’exploitation</h4>
+<p>Le cœur du système d’exploitation repose sur Docker. Docker est une plateforme qui permet de lancer des applications dans des conteneurs. L’objectif d’un conteneur est d’héberger des services sur un même serveur physique (dans notre cas nos machines personnelles) tout en les isolant les uns des autres.</p>
+<p>Cette plateforme nous offre également un environnement uniforme pour tous les membres du projet. Cette uniformité facilite l’intégration et le regroupement des différentes composantes développées par chacun des contributeurs.</p>
+<p>Le fonctionnement des conteneurs Docker au sein de notre infrastructure Smart Garden repose sur l’utilisation de deux composants essentiels : Docker Compose et les fichiers Dockerfile. Cette approche garantit une configuration simplifiée et une mise en œuvre efficace de l’environnement de développement.</p>
+<p>Le fichier docker-compose.yml définit l’ensemble des services et des paramètres nécessaires à notre application. Chaque service, tel que la base de données MariaDB, l’interface PHPMyAdmin, le front-end, le back-end et le service de capteurs, est configuré de manière à interagir au sein du réseau dédié smartgarden-network. Des volumes sont utilisés pour assurer la persistance des données de la base de données, tandis que les dépendances entre les services sont gérées avec l’instruction depends_on, garantissant un démarrage ordonné.</p>
+<p>Les fichiers Dockerfile, situés dans les répertoires ./frontend, ./backend, et ./sensor, définissent les instructions nécessaires pour construire les images Docker correspondantes. Chacun de ces fichiers permet de décrire l’environnement d’exécution, les dépendances et les étapes spécifiques à chaque composant de l’application. Ces fichiers Dockerfile sont intégrés dans le fichier docker-compose.yml pour assurer une cohérence lors du déploiement de l’ensemble de l’application.</p>
+<p>Une fois l’application déployée dans Docker, il est possible d’accéder au front-end, à PHPMyAdmin (pour gérer et visualiser la base de données) et à la page de l’API depuis l’adresse du localhost en sélectionnant des ports dédiés. Ces ports sont configurés dans le fichier docker-compose.yml, les fichiers Dockerfile et parfois les fichiers de configuration des services.</p>
+<h4 id="base-de-données">Base de données</h4>
+<p>Pour la gestion des données, nous avons opté pour MariaDB, un système de gestion de base de données relationnelles. Cette solution est complétée par l’utilisation de PHPMyAdmin, une interface web qui simplifie la manipulation et la visualisation des données stockées.</p>
+<p>PHPMyAdmin nous a principalement été utile au début du projet afin de mettre en place les premières versions des bases de données. Cet outil nous a permis de faire de nombreux tests avant que l’API ne soit disponible dans l’application.</p>
+<p>Dans ce projet nous avons pensé à une base de données simple. Voici le schéma de la base de données : 
+!<img src="/images/smartgarden-schema-bdd.png" alt="Image Description">
+Diagramme UML de la base de données</p>
+<h4 id="api">API</h4>
+<p>L’interface de programmation (API) repose sur FastAPI, un framework Python moderne et performant. Le serveur Python s’interface avec la base de données et expose des points d’accès pour la gestion des différents éléments nécessaires dans le site web (front-end).</p>
+<p>FastAPI utilise la librairie Pydantic pour définir les modèles de données, facilitant ainsi la validation des données entrantes et sortantes. Chaque point d’accès est défini comme une fonction asynchrone associée à une route particulière. Chaque entité (Jardin, Parcelle, Action, etc.) dispose de points d’accès spécifiques pour la création, la lecture, la mise à jour et la suppression des données.</p>
+<p>En résumé, notre API FastAPI offre un ensemble de points d’accès structurés pour la gestion des données de notre application Smart Garden et les modèles Pydantic garantissent la validité des données.</p>
+<p>Un serveur Python fonctionne en parallèle avec un script Python dédié à la récupération des relevés des capteurs à partir du protocole MQTT. Ces données sont ensuite intégrées de manière transparente dans la base de données, assurant ainsi une mise à jour constante et en temps réel.</p>
+<p>!<img src="/images/smartgarden-schema-api.png" alt="Image Description">
+Schéma représentant les interactions entre les services</p>
+<p>👉 Découvrir le dépôt GitLab du projet : <a href="https://gitlab.imt-atlantique.fr/m20chevr/smartgarden">Smart Garden - GitLab</a></p>
+<h2 id="ressources">Ressources</h2>
+<ul>
+<li>Dépôt GitLab du projet : <a href="https://gitlab.imt-atlantique.fr/m20chevr/smartgarden">Smart Garden - GitLab</a></li>
+<li>Les articles du projet :
+<ul>
+<li><a href="https://telefab.fr/2023/10/22/jardin-partage/">Jardin Partagé – État de l&rsquo;art</a></li>
+<li><a href="https://telefab.fr/2023/10/27/jardin-partage-enquete-terrain/">Jardin Partagé – Enquête terrain</a></li>
+<li><a href="https://telefab.fr/2024/01/15/jardin-partage-solution-technique/">Jardin Partagé – Solution Technique</a></li>
+</ul>
+</li>
+</ul>
+
+
+    <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
+
+      <li class="font-semibold my-4">Tags:</li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/reactjs/">Reactjs</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/docker/">Docker</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/fastapi/">FastAPI</a></li>
+    </ul>
+</div>
+
+    <footer id="content-footer" class="not-prose">
+
+      <div id="author-box" class="my-8 md:my-14 border p-8 bg-zinc-100 rounded-2xl">
+
+        <img class="w-20 h-20 rounded-full" src="/images/home.jpg" alt="Aïna Dirou">
+
+        <h2 class="text-xl font-bold my-4">Auteur : Aïna Dirou</h2>
+
+        <p class="mb-4">Ma bio</p>
+
+        <ul class="flex flex-wrap space-x-4">
+          <li>
+            <a class="flex items-center decoration-auto hover:underline" href="https://github.com/yunea" target="_blank"
+              rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 
+                  0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+                  0-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.64-.89-3.64-3.95
+                  0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82a7.62 7.62 0 0 1 2-.27
+                  c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 
+                  1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 
+                  1.93-.01 2.2 0 .21.15.46.55.38A8.001 8.001 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+              </svg>
+              <span class="ml-2">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a class="flex items-center decoration-auto hover:underline" href="https://linkedin.com/in/aina-dirou"
+              target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 
+                  16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 
+                  0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.213c.837 
+                  0 1.358-.554 1.358-1.248-.015-.71-.52-1.248-1.342-1.248-.822 
+                  0-1.358.538-1.358 1.248 0 .694.521 1.248 1.327 1.248h.015zm4.908 
+                  8.213V9.359c0-.216.016-.432.08-.586.173-.432.568-.88 1.232-.88.869 
+                  0 1.216.664 1.216 1.637v3.864h2.401V9.25c0-2.22-1.184-3.252-2.765-3.252-1.274 
+                  0-1.845.7-2.165 1.19h.03v-1.024H7.17c.03.664 0 7.225 0 7.225h2.401z" />
+              </svg>
+
+              </svg>
+              <span class="ml-2">LinkedIn</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div id="related-post" class="">
+
+        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2>
+      </div>
+
+    </footer>
+
+  </article>
+
+  
+  <aside class="md:col-span-1"><div class="lg:sticky lg:top-8">
+
+	<div class="space-y-6">
+
+		<h2 class="font-bold text-xl mb-8">Recent Post</h2>
+
+		<article class="relative group flex flex-row">
+	<a class="insert-link" href="https://yunea.github.io/ainablog/posts/2025/projet-smart-garden/"></a>
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="https://yunea.github.io/ainablog/images/logo-reactjs_hu_95efb62f31622cdb.png" alt="Projet - Smart garden" width="250" height="250">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-bold group-hover:underline decoration-auto">Projet - Smart garden</h3>
+	</div>
+</article><article class="relative group flex flex-row">
+	<a class="insert-link" href="https://yunea.github.io/ainablog/posts/2025/creation-de-site-web-avec-hugo/"></a>
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="https://yunea.github.io/ainablog/images/hugo_hu_d85444ad70c9f734.png" alt="Comment j&#39;ai créé mon site web avec Hugo" width="250" height="250">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-bold group-hover:underline decoration-auto">Comment j&#39;ai créé mon site web avec Hugo</h3>
+	</div>
+</article>
+
+	</div>
+
+</div></aside>
+
+</div>
+
+</main>
+  <footer class="bg-zinc-100 py-10 md:py-14"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+
+  <div class="flex flex-wrap space-y-6 mb-4">
+
+    <div class="w-full md:w-3/5 flex flex-col space-y-4 md:pr-8 lg:pr-10">
+
+      <a class="flex items-center group" href="https://yunea.github.io/ainablog/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+          class="mr-2 group-hover:animate-spin" viewBox="0 0 16 16">
+          <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          <path
+            d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z" />
+        </svg>
+
+        <span class="text-2xl font-semibold uppercase">Aina</span>
+      </a>
+
+      <p class="font-semibold">
+        Découvrez mes projets !
+      </p>
+
+    </div>
+
+    <div class="self-center flex flex-col w-full md:w-2/5">
+
+      <ul id="social-media" class="flex items-center space-x-4">
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2"
+			href="https://github.com/yunea" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				<path
+					d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2"
+			href="https://www.linkedin.com/in/aina-dirou" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				<path d="M0 1.146C0 .513.324 0 .725 0h14.55c.4 0 
+	        .725.513.725 1.146v13.708c0 .633-.324 1.146-.725 
+	        1.146H.725A.723.723 0 0 1 0 14.854V1.146zm4.943 
+	        12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 
+	        0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.341-1.248-.822 
+	        0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 
+	        1.248h.015zm4.908 8.212V9.359c0-.216.016-.432.08-.586.175-.432.574-.88 
+	        1.244-.88.877 0 1.228.664 1.228 1.636v3.865h2.4V9.25c0-2.22-1.183-3.252-2.76-3.252-1.28 
+	        0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 
+	        .016-.025V6.169h-2.4c.03.7 0 7.225 0 7.225h2.4z" />
+			</svg>
+		</a>
+	</li>
+	<li>
+		<a class="w-12 h-12 rounded-full bg-white hover:bg-zinc-200 flex items-center justify-center p-2"
+			href="mailto:aina201.ad@gmail.com" target="_blank" rel="noopener noreferrer">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				<path
+					d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.118V5.383zM14.247 12 9.2 8.857l-.2.121-.2-.121L1.753 12h12.494zM1 11.118l4.708-2.91L1 5.383v5.735z" />
+			</svg>
+		</a>
+	</li>
+</ul>
+
+    </div>
+
+  </div>
+
+  <div class="my-8">
+    <ul class="flex items-center space-x-4">
+      
+      <li><a class="decoration-auto hover:underline font-semibold" href="/ainablog/">Accueil</a></li>
+      
+      <li><a class="decoration-auto hover:underline font-semibold" href="/ainablog/about/">À propos</a></li>
+      
+      <li><a class="decoration-auto hover:underline font-semibold" href="/ainablog/cv/">CV</a></li>
+      
+      <li><a class="decoration-auto hover:underline font-semibold" href="/ainablog/tags/">Tags</a></li>
+      
+      <li><a class="decoration-auto hover:underline font-semibold" href="/ainablog/categories/">Taxonomy</a></li>
+      
+    </ul>
+  </div>
+
+  <div class="border-t pt-4">
+
+    <p class="text-sm">Fait avec <a href="https://gohugo.io/">Hugo</a> et le thème <a
+        href="https://github.com/fauzanmy/pehtheme-hugo">pehtheme</a>.</p>
+    <p class="text-sm">Copyright © 2025 - Mon super blog. Tous droits réservés. <a
+        href="https://insertapps.com/en/" target="_blank" rel="noopener">Insertapps.com</a></p>
+
+  </div>
+
+</div></footer>
+      <script defer src="/ainablog/js/insertoggle.474f9b0e08021c6519cff4e46df14ccf148285b2d3a23d6321d6e10f25c291fb.js" integrity="sha256-R0&#43;bDggCHGUZz/TkbfFMzxSChbLToj1jIdbhDyXCkfs=" crossorigin="anonymous"></script>
+</body>
+</html>
