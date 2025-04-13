@@ -18,6 +18,8 @@ J’adore voir des idées prendre vie et évoluer au fil du temps. Ce portfolio 
 Après un **DUT Réseaux et Télécommunications** à l’IUT de Saint-Malo, j’ai poursuivi avec une formation d’**ingénieure** à l’**IMT Atlantique**, spécialisée en **réseaux, informatique et télécoms**.  
 Je suis passionnée par la tech depuis la fin du lycée, mais ce que j’aime par-dessus tout, c’est **concrétiser des idées** et **voir des projets évoluer dans le temps**.
 
+> 👉 [ Retrouvez mon CV ici](/ainablog/cv)
+
 > 👉 Mon [CV est disponible ici](/cv)
 
 ## 💼 Compétences
