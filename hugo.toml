@@ -20,7 +20,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 
 [taxonomies]
   tag = "tags"
-  category = "catégories"
+  category = "categories"
 
 [menu] # Menu management
 	[[menu.main]]
@@ -41,7 +41,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 		weight = 25
 	[[menu.main]]
 		name = 'Taxonomy'
-		pageRef = '/catégories/'
+		pageRef = '/categories/'
 		weight = 30
 
 [module]
