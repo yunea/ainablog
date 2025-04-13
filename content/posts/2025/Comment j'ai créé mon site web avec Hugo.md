@@ -13,7 +13,6 @@ tags:
 - markdown
 - git
 - github
-- feature
 draft: false
 ---
 
