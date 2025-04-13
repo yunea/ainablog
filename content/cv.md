@@ -92,6 +92,7 @@ analyse de traffic avec Wireshark, VPN, TRUNK, NAT, IPv4/6, RIP, OSPF, BGP, MPLS
 - Méthodologie : Agile / Sprints
 
 👉 Lire l'article complet : [Projet PROCOM - ERP Modulaire](/ainablog/projet-erp-modulaire/)
+
 [🔗 Lien GitHub du projet](https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP)
 
 ### Smart Garden
