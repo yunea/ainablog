@@ -7,6 +7,7 @@ image: images/hugo.png
 caption: 
 categories:
 - Web
+- Projet
 tags:
 - Hugo
 - Markdown
