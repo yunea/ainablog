@@ -5,8 +5,8 @@ theme = 'pehtheme-hugo'
 
 pagination.pagerSize = '6' # <- Set the desired number of posts per page 
 summaryLength = '20' # <- 20 words are approximately 160 characters
-googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
-disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
+# googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
+# disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
@@ -18,23 +18,31 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	bio = 'Ma bio'
 	avatar = '/images/home.jpg'
 
+[taxonomies]
+  tag = "tags"
+  category = "catégories"
+
 [menu] # Menu management
 	[[menu.main]]
 		name = 'Accueil'
 		pageRef = '/'
 		weight = 10
 	[[menu.main]]
+		name = 'À propos'
+		pageRef = '/about'
+		weight = 15
+	[[menu.main]]
 		name = 'CV'
 		pageRef = '/cv'
-		weight = 15
+		weight = 20
 	[[menu.main]]
 		name = 'Tags'
 		pageRef = '/tags'
-		weight = 20
+		weight = 25
 	[[menu.main]]
 		name = 'Taxonomy'
-		pageRef = '/tags/projet/'
-		weight = 25
+		pageRef = '/catégories/'
+		weight = 30
 
 [module]
   [module.hugoVersion]

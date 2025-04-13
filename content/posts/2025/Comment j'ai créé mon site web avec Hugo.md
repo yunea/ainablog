@@ -5,7 +5,7 @@ slug: /creation-de-site-web-avec-hugo/
 description: Étapes détaillées de la création de mon site web statique avec Hugo, depuis l'idée jusqu'à la mise en ligne.
 image: images/hugo.png
 caption: 
-categories:
+catégories:
 - Web
 - Projet
 tags:
