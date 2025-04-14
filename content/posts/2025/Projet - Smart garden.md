@@ -2,7 +2,7 @@
 title: Projet - Smart garden
 date: "2025-04-13"
 slug: /projet-smart-garden/
-description: undertitle
+description: "Projet visant à améliorer l'organisation des jardins partagés grâce à une plateforme web accessible à tous."
 image: images/logo-reactjs.png
 caption:
 categories:

@@ -13,18 +13,13 @@ Ce site est un peu mon bac à sable numérique, un espace de liberté où je par
 
 J’adore voir des idées prendre vie et évoluer au fil du temps. Ce blog me permet de garder une trace de mes expériences, de partager ce que j’apprends, et de documenter ce que je crée — sans pression, juste pour le plaisir.
 
-## 🚀 Objectif pro
+**Opportunité** : je suis actuellement à la recherche d’un **CDI** dans les domaines des **systèmes, réseaux ou DevOps**.  
 
-Je suis actuellement à la recherche d’un **CDI** dans les domaines des **systèmes, réseaux ou DevOps**.  
-Diplômée de l’IMT Atlantique, j’ai acquis une solide expérience en **administration système** (Linux/Windows), en **automatisation d’infrastructures** (CI/CD, GitLab, Docker) et en **gestion de projets IT**, grâce à mes années d’alternance chez **Alcatel-Lucent Enterprise** et **Orange**.
+Si tu veux en apprendre plus moi : 
+👉 Tu peux consulter mon [CV](/ainablog/cv) 
+👉 Ou faire un tour sur ma page [LinkedIn](https://www.linkedin.com/in/aina-dirou)
 
-Je suis particulièrement attirée par les environnements techniques qui touchent à l'**administration**, la **maintenance** et l’**optimisation des infrastructures IT**.
-
-Curieuse, rigoureuse et toujours motivée à apprendre, je suis à l’écoute d’opportunités qui me permettront de continuer à progresser dans ces domaines.  
-
-👉 Tu peux consulter mon [CV](/ainablog/cv) ou faire un tour sur ma page [LinkedIn](https://www.linkedin.com/in/aina-dirou) pour plus d'information !
-
-## 🌈 Et en dehors du pro ?
+## 🌈 Mes passions
 
 Je suis aussi passionnée par tout un tas d’autres choses, comme :  
 🎧 la musique · 🎨 le dessin · 💪 le sport · 💸 les finances personnelles · ✈️ les voyages
