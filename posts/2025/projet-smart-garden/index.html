@@ -167,15 +167,15 @@
 <p>Pour la gestion des données, nous avons opté pour MariaDB, un système de gestion de base de données relationnelles. Cette solution est complétée par l’utilisation de PHPMyAdmin, une interface web qui simplifie la manipulation et la visualisation des données stockées.</p>
 <p>PHPMyAdmin nous a principalement été utile au début du projet afin de mettre en place les premières versions des bases de données. Cet outil nous a permis de faire de nombreux tests avant que l’API ne soit disponible dans l’application.</p>
 <p>Dans ce projet nous avons pensé à une base de données simple. Voici le schéma de la base de données : 
-<img src="/ainablog/images/smartgarden-schema-bdd.png" alt="Diagramme UML de la base de données">
+!<img src="/ainablog/images/smartgarden-schema-bdd.png" alt="Image Description">
 Diagramme UML de la base de données</p>
-<p><img src="/ainablog/images/test-image.png" alt="Procom front"></p>
+<p>!<img src="/ainablog/images/test-image.png" alt="Image Description"></p>
 <h4 id="api">API</h4>
 <p>L’interface de programmation (API) repose sur FastAPI, un framework Python moderne et performant. Le serveur Python s’interface avec la base de données et expose des points d’accès pour la gestion des différents éléments nécessaires dans le site web (front-end).</p>
 <p>FastAPI utilise la librairie Pydantic pour définir les modèles de données, facilitant ainsi la validation des données entrantes et sortantes. Chaque point d’accès est défini comme une fonction asynchrone associée à une route particulière. Chaque entité (Jardin, Parcelle, Action, etc.) dispose de points d’accès spécifiques pour la création, la lecture, la mise à jour et la suppression des données.</p>
 <p>En résumé, notre API FastAPI offre un ensemble de points d’accès structurés pour la gestion des données de notre application Smart Garden et les modèles Pydantic garantissent la validité des données.</p>
 <p>Un serveur Python fonctionne en parallèle avec un script Python dédié à la récupération des relevés des capteurs à partir du protocole MQTT. Ces données sont ensuite intégrées de manière transparente dans la base de données, assurant ainsi une mise à jour constante et en temps réel.</p>
-<p>!<img src="/images/smartgarden-schema-api.png" alt="Image Description">
+<p>!<img src="/ainablog/images/smartgarden-schema-api.png" alt="Image Description">
 Schéma représentant les interactions entre les services</p>
 <p>👉 Découvrir le dépôt GitLab du projet : <a href="https://gitlab.imt-atlantique.fr/m20chevr/smartgarden">Smart Garden - GitLab</a></p>
 <h2 id="ressources">Ressources</h2>
