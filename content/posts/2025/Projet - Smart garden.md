@@ -15,6 +15,12 @@ tags:
 draft: false
 ---
 
+Cet article présente un projet scolaire mené durant le premier semestre de ma dernière année d'ingénieur, dans le cadre de la thématique d’approfondissement (TAF) intitulé **COOC – Conception d’Objets Communicants**, à **IMT Atlantique**. 
+
+Réalisé en groupe de quatre, ce projet nous a permis d’explorer des problématiques concrètes liées à l’organisation des jardins partagés, tout en mobilisant des compétences techniques avancées autour de l’Internet des Objets (IoT) et du développement logiciel. J’ai occupé le rôle de **cheffe de projet** ainsi que celui de **développeuse back-end**, en charge notamment de la mise en place de l’infrastructure **Docker** et du développement de l’**API**.
+
+Ce travail, alliant recherche de terrain et prototypage d’une solution technique, nous a permis de proposer une application innovante, pensée pour répondre aux besoins concrets liés à la gestion d'un jardin partagé.
+
 ## 1. État de l'art : les jardins partagés, entre écologie et lien social
 
 Les jardins partagés connaissent un essor notable en France, notamment dans les zones urbaines où ils répondent à un besoin croissant de nature et de convivialité. Ces espaces verts collectifs favorisent la biodiversité, renforcent les liens sociaux et contribuent à une alimentation plus durable. Leur développement s'inscrit dans des scénarios de transition écologique, promus par des institutions comme l'ADEME, qui valorisent des approches frugales et coopératives.​

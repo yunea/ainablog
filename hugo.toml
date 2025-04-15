@@ -19,13 +19,13 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 	avatar = '/images/home.jpg'
 
 [params.social]
-	github = "https://github.com/yunea"
-	linkedin = "https://www.linkedin.com/in/aina-dirou"
-	email = "mailto:aina201.ad@gmail.com"
+	github = 'https://github.com/yunea'
+	linkedin = 'https://www.linkedin.com/in/aina-dirou'
+	email = 'mailto:aina201.ad@gmail.com'
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+  tag = 'tags'
+  category = 'categories'
 
 [menu] # Menu management
 	[[menu.main]]
