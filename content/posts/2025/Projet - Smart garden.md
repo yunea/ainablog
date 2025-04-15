@@ -80,11 +80,11 @@ Pour la gestion des données, nous avons opté pour MariaDB, un système de gest
 PHPMyAdmin nous a principalement été utile au début du projet afin de mettre en place les premières versions des bases de données. Cet outil nous a permis de faire de nombreux tests avant que l’API ne soit disponible dans l’application.
 
 Dans ce projet nous avons pensé à une base de données simple. Voici le schéma de la base de données : 
-![Diagramme UML de la base de données](/ainablog/images/smartgarden-schema-bdd.png)
+!![Image Description](/ainablog/images/smartgarden-schema-bdd.png)
 Diagramme UML de la base de données
 
 
-![Procom front](/ainablog/images/test-image.png)
+!![Image Description](/ainablog/images/test-image.png)
 #### API
 
 L’interface de programmation (API) repose sur FastAPI, un framework Python moderne et performant. Le serveur Python s’interface avec la base de données et expose des points d’accès pour la gestion des différents éléments nécessaires dans le site web (front-end).
@@ -95,7 +95,7 @@ En résumé, notre API FastAPI offre un ensemble de points d’accès structuré
 
 Un serveur Python fonctionne en parallèle avec un script Python dédié à la récupération des relevés des capteurs à partir du protocole MQTT. Ces données sont ensuite intégrées de manière transparente dans la base de données, assurant ainsi une mise à jour constante et en temps réel.
 
-!![Image Description](/images/smartgarden-schema-api.png)
+!![Image Description](/ainablog/images/smartgarden-schema-api.png)
 Schéma représentant les interactions entre les services
 
 👉 Découvrir le dépôt GitLab du projet : [Smart Garden - GitLab](https://gitlab.imt-atlantique.fr/m20chevr/smartgarden)
