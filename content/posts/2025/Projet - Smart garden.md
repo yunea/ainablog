@@ -83,6 +83,8 @@ Dans ce projet nous avons pensé à une base de données simple. Voici le schém
 ![Diagramme UML de la base de données](/ainablog/images/smartgarden-schema-bdd.png)
 Diagramme UML de la base de données
 
+
+![Procom front](/ainablog/images/test-image.png)
 #### API
 
 L’interface de programmation (API) repose sur FastAPI, un framework Python moderne et performant. Le serveur Python s’interface avec la base de données et expose des points d’accès pour la gestion des différents éléments nécessaires dans le site web (front-end).
