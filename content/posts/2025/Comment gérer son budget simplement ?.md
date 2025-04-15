@@ -1,5 +1,5 @@
 ---
-title: "Comment j'ai créé et je gère mon budget ?"
+title: "Comment j'ai créé mon budget ?"
 date: "2025-04-14"
 slug: /creer-son-budget/
 description: "Une méthode simple, testée, imparfaite — avec d’autres options si la tienne est différente"
@@ -56,17 +56,10 @@ Une fois toutes vos dépenses regroupées et catégorisées, je vous conseille, 
 
 Ajouter ensuite dans un coin de votre feuille vos revenus. Cela permet de savoir si vous dépensez plus que ce que vous gagnez. Si c'est le cas, je vous encourage à revoir vos dépenses et à supprimer des abonnements non nécessaires. Si cela ne suffit pas, pensez à augmenter vos revenus.
 
-
-
 #### Ma méthode :
 
 - Regrouper mes dépenses en grandes catégories (fixes / variables / plaisir / imprévus)
-    
 - Voir combien il me reste en moyenne chaque mois → définir une “base réaliste”
-    
-- Inclure dès le départ une ligne “épargne” même petite
-    
-
 #### Alternatives :
 
 - Méthode **50/30/20** → simple et intuitive
@@ -80,23 +73,21 @@ Ajouter ensuite dans un coin de votre feuille vos revenus. Cela permet de savoir
 
 ### 4. 📆 Étape 3 : m’organiser au quotidien
 
-#### Ma méthode :
+#### Ma méthode : Systèmes des enveloppes (virtuel)
 
-- Tableur maison mis à jour chaque dimanche
-    
-- Notification dans mon agenda : “10 min budget”
-    
-- Je note les écarts, sans culpabiliser
-    
+- Virements en début du mois
+- Mise en place des poches de budget dans mon appli Revolut, pour les dépenses variables, ajouter le montant du budget 
+- Choisir son zéro sur son compte courant (200€ pour moi), si j'ai des dépenses je sais combien
+- Au quotidien, virement des poches (choix du poche en fonction de la dépense) vers le compte courant en fonction des dépenses -> ça me permet de toujours être au courant de ce que j'ai dépensé et dans quoi
+- Avec les virements je sais combien il me reste pour chaque budget
+
+Mise en place en 5 min au début du mois, puis 2 min tous les 3 jours voire 1 fois par semaine en fonction de vos dépenses.
 
 #### Alternatives :
 
-- Automatiser le suivi avec Bankin ou Linxo
-    
+- Suivre ses dépenses sur une app comme Bankin
 - Utiliser une app avec notifications intelligentes
-    
-- Système d’enveloppes (physique ou virtuel avec Lydia / Revolut par ex.)
-    
+- Système d’enveloppes physique
 
 ---
 

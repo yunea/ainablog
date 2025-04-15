@@ -16,7 +16,7 @@ draft: false
 ---
 ## 🎯 Contexte 
 
-Lors de ma dernière année à l’**IMT Atlantique**, j’ai participé, avec mon groupe, au développement d’un **ERP modulaire**dans le cadre de l’unité d’enseignement **PROCOM**.
+Lors de ma dernière année à l’**IMT Atlantique**, j’ai participé, avec mon groupe, au développement d’un **ERP modulaire** dans le cadre de l’unité d’enseignement **PROCOM**.
 
 Avant d’entrer dans le détail du projet, il est utile de clarifier deux notions essentielles :
 
@@ -120,7 +120,7 @@ Voici quelques aperçus du travail réalisé :
 
 Charte graphique : 
 
-![[procom-charte-graphique.png|500]]
+![Image Description](/ainablog/images/procom-charte-graphique.png)
 
 Templates des pages : 
 
@@ -132,7 +132,7 @@ Templates des pages :
 
 Page de connexion : 
 
-![[procom-front-login.png|500]]
+![Image Description](/ainablog/images/procom-front-login.png)
 
 Page de l'annuaire : 
 
