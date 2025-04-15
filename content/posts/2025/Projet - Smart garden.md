@@ -80,7 +80,7 @@ Pour la gestion des données, nous avons opté pour MariaDB, un système de gest
 PHPMyAdmin nous a principalement été utile au début du projet afin de mettre en place les premières versions des bases de données. Cet outil nous a permis de faire de nombreux tests avant que l’API ne soit disponible dans l’application.
 
 Dans ce projet nous avons pensé à une base de données simple. Voici le schéma de la base de données : 
-!![Image Description](/images/smartgarden-schema-bdd.png)
+![Diagramme UML de la base de données](smartgarden-schema-bdd.png)
 Diagramme UML de la base de données
 
 #### API

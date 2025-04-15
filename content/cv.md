@@ -91,7 +91,7 @@ analyse de traffic avec Wireshark, VPN, TRUNK, NAT, IPv4/6, RIP, OSPF, BGP, MPLS
 - Technologies utilisées : React JS, CSS, HTML, Docker, GitHub
 - Méthodologie : Agile / Sprints
 
-👉 Lire l'article complet : [Projet PROCOM - ERP Modulaire](/ainablog/projet-erp-modulaire/)
+👉 Lire l'article complet : [Projet PROCOM - ERP Modulaire](/ainablog/posts/2025/projet-erp-modulaire/)
 
 [🔗 Lien GitHub du projet](https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP)
 
@@ -101,7 +101,7 @@ analyse de traffic avec Wireshark, VPN, TRUNK, NAT, IPv4/6, RIP, OSPF, BGP, MPLS
 - Technologies utilisées : Docker, FastAPI (Python), MariaDB, PHPMyAdmin, GitLab
 - Méthodologie : Agile / SCRUM / Sprints
 
-👉 Lire l'article complet : [Projet - Smart garden](/ainablog/projet-smart-garden/)
+👉 Lire l'article complet : [Projet - Smart garden](/ainablog/posts/2025/projet-smart-garden/)
 
 ## Loisirs & centres d'intérêt
 
