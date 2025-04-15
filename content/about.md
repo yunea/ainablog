@@ -16,7 +16,9 @@ J’adore voir des idées prendre vie et évoluer au fil du temps. Ce blog me pe
 **Opportunité** : je suis actuellement à la recherche d’un **CDI** dans les domaines des **systèmes, réseaux ou DevOps**.  
 
 Si tu veux en apprendre plus moi : 
+
 👉 Tu peux consulter mon [CV](/ainablog/cv) 
+
 👉 Ou faire un tour sur ma page [LinkedIn](https://www.linkedin.com/in/aina-dirou)
 
 ## 🌈 Mes passions

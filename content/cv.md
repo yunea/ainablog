@@ -1,109 +1,144 @@
 ---
-title: "Curriculum Vitae"
+title: "CV – Ingénieure DevOps & Systèmes | IMT Atlantique"
 date: 2025-04-12T18:04:29+07:00
 image: images/pc.png
 draft: false
 ---
 
-## Profil professionnel
+# Profil professionnel
 
-Attirée par les défis liés aux **réseaux, aux systèmes et au DevOps**, je recherche un environnement dynamique et collaboratif où je pourrai contribuer à des projets concrets et variés. **Ingénieure diplômée d’IMT Atlantique**, spécialisée en réseaux, informatique et télécommunications, j’ai un fort intérêt pour l’automatisation des infrastructures, notamment via **Docker** et **GitLab CI**, afin de fluidifier les déploiements et renforcer la fiabilité des systèmes. Curieuse et proactive, j’aime **résoudre des problématiques complexes** et **concevoir des solutions automatisées** qui améliorent
-la résilience et l’efficacité des infrastructures.
+Je suis ingénieure diplômée de l’**IMT Atlantique**, spécialisée en **réseaux et télécommunications**. Après plusieurs expériences en alternance chez Alcatel-Lucent Enterprise et Orange, je recherche aujourd’hui un poste en **CDI** où je pourrai contribuer à **la mise en place, l’optimisation et la sécurisation d’infrastructures réseaux et systèmes**.
 
-## Expérience professionnelle
+Au fil de mes projets, j’ai développé une appétence particulière pour l’**automatisation**, l’intégration et le déploiement continu (**CI/CD**), la méthodologie **DevOps** ainsi que la **résolution de problématiques complexes** liées aux environnements **systèmes et réseaux**. J’apprécie les contextes techniques exigeants, le travail en équipe et les projets concrets qui ont un impact direct sur la fiabilité et la performance des systèmes.
 
-### Alcatel-Lucent Enterprise | 2021-2024
 
-#### Ingénieure DevOps / Cheffe de projet IT - Alternance
+# Expérience professionnelle
 
-Contexte 
-- Guipavas, France
-- Août 2023 - Août 2024
+## Alcatel-Lucent Enterprise • Guipavas • 2021-2024
 
-Missions
-- Pilotage du développement d'un logiciel interne, assurant le suivi des livrables et la coordination des équipes techniques.
-- Conception et implémentation d'un pipeline CI/CD automatisé via GitLab CI, optimisant le processus de déploiement et garantissant une intégration continue efficace du projet.
-- Rédaction d'une documentation détaillée sur les recherches effectuées, le code développé et l'environnement mis en place,
-facilitant la montée en compétence des membres de l’équipe
+Dans le cadre de mon alternance, j’ai rejoint une équipe pluridisciplinaire de 6 personnes dédiée à la gestion des démonstrations de solutions et produits clients. Composée de profils aux compétences variées — réseaux, systèmes, développement web, support technique — l’équipe fonctionne en binômes complémentaires (développement, démonstration, infrastructure), favorisant entraide, polyvalence et réactivité.
 
-#### Développeuse React.js - Stage
+### Ingénieure DevOps / Cheffe de projet IT - Alternance (Août 2023 - Août 2024)
 
-Contexte
-- Singapour
-- Mai 2023 - Juillet 2023
+#### Contexte
 
-Mission
-- Conception et mise en production d'un assistant virtuel interactif pour l'accueil, améliorant l'expérience utilisateur (React.js).
+L’objectif principal de cette période d'alternance était de me former à la gestion de projet. Pour cela, j’ai été pleinement intégrée à un projet concret : le développement d’une application destinée à un service interne de l’entreprise.
 
-#### Développeuse - Alternance
+En parallèle, j’ai contribué à renforcer les compétences de l’équipe en automatisation, en concevant et déployant un pipeline de déploiement. Cette initiative a permis de fluidifier les processus techniques et d’accroître la fiabilité en amont de la mise en production.
 
-Contexte
-- Guipavas, France
-- Sept 2021 - Avril 2023
+#### Missions
 
-Missions
-- Conception et développement d'un script Python d'automatisation, réduisant le temps de maintenance en permettant la réinitialisation simultanée d'équipements.
-- Refonte et optimisation d'un site web de présentation de solution, améliorant l'expérience utilisateur (PHP, JavaScript).
-- Analyse et sélection d'un proxy sécurisé pour optimiser la gestion du trafic réseau et renforcer la sécurité de l'entreprise.
+- Pilotage d’un projet de développement applicatif interne (réunions client, planification, documentation)
+- Formation en autonomie sur les outils et bonnes pratiqeus DevOps
+- Mise en place d’un pipeline CI/CD complet avec Docker & GitLab-CI
+- Création de l’environnement de test (VMWare), validation du pipeline
+- Transmission et documentation technique à l’équipe
 
-### Orange | 2020-2021
+#### Résultat
+- Intégration continue mise en place  
+- Déploiement automatisé et fiabilisé  
+- Montée en compétence collective sur les outils DevOps
 
-#### Chargée des systèmes d’information géographique - Alternance
 
-Contexte
-- Vannes, France 
-- Août 2020 - Août 2021
+### Développeuse React.js - Stage à Singapour (Mai 2023 - Juillet 2023)
 
-Missions
+#### Contexte
+
+Dans le cadre de ma formation, un stage de 3 mois à l’international était requis. J’ai eu l’opportunité de l’effectuer à Singapour, chez Alcatel-Lucent Enterprise, sur un projet de développement d’une application web visant à améliorer l’accueil des visiteurs et des livraisons.
+
+L’objectif du projet était de concevoir un assistant virtuel interactif, installé à l’entrée du bâtiment, capable de guider les visiteurs et livreurs dès leur arrivée, tout en informant les personnes concernées en interne.
+
+Responsable du développement de l’application de bout en bout, j’ai travaillé en totale autonomie, tout en bénéficiant du soutien de deux référents : un expert technique sur la partie API et un encadrant local chargé du suivi global du projet. Cette expérience m’a permis de renforcer mon autonomie, ma rigueur, ainsi que ma capacité à évoluer dans un contexte professionnel international.
+
+#### Missions
+- Gestion de projet (recueil des besoins, présentation client en anglais)
+- Développement d’un assistant virtuel d’accueil (React.js, API Rainbow)
+- Intégration complète sur poste fixe à l’entrée du bâtiment
+
+#### Résultat 
+- Application livrée et fonctionnelle à l’accueil  
+- Travail en autonomie dans un contexte international
+
+### Développeuse - Alternance (Sept 2021 - Avril 2023)
+
+#### Contexte
+
+Mon rôle au sein de l’équipe consistait à prendre en charge des projets de petite envergure mais à fort impact, souvent laissés de côté faute de temps. Cette position transversale m’a permis d’intervenir sur des sujets variés — automatisation, développement, infrastructure — tout en optimisant certains processus internes. J’ai ainsi pu renforcer mes compétences techniques, gagner en autonomie et développer une vision globale de la gestion de projet dans un environnement pluridisciplinaire.
+
+#### Missions
+- Automatisation de la configuration d’équipement réseaux utilisés pour des formations via un script Python
+- Refonte visuelle et ajout de fonctionnalités à un site web interne (PHP/JS) 
+- Rédaction d’une synthèse comparative pour un proxy sécurisé  
+
+#### Résultat
+- Automatisation : gain de temps ×5 sur la configuration réseau  
+- Amélioration de l’UX sur l’interface de démonstration  
+
+## Orange • Vannes • 2020-2021
+
+### Chargée des systèmes d’information géographique - Alternance (Août 2020 - Août 2021)
+
+#### Contexte
+
+#### Missions
 - Optimisation et contrôle qualité des données infographiques, garantissant la fiabilité et la cohérence des informations.
 - Coordination avec les chargés d'affaires pour assurer une mise à jour efficace et adaptée des données infographiques.
 
-## Compétences
 
-- **Système** : Unix (Debian, Ubuntu, Kali), Linux, Windows (Server, 7, 8, 10), VMWare
-- **Réseau** : Configuration et gestion d’équipement réseau (OneAccess, Cisco, Jupiter), supervision et sécurisation des réseaux,
-analyse de traffic avec Wireshark, VPN, TRUNK, NAT, IPv4/6, RIP, OSPF, BGP, MPLS, SNMP, HTTP(S), TELNET, STP, FTP
-- **DevOps** : Docker, Git, Gitlab-CI, Github
-- **Développement & Bases de données** : Python, Bash, Shell, React.js, C, PHP, HTML/CSS, Java, MySQL, MongoDB, PostgreSQL
-- **Gestion de Projet** : méthodologies Agile / Scrum, pilotage de projet, documentation, transmission des connaissances
-- **Qualités personnelles** : esprit d’analyse, résolution de problèmes, adaptabilité, autonomie, collaboration, communication
-- **Langues** : Français (langue martenelle), Anglais (C1 - IELTS)
+# Compétences
 
-## Formation
+|     |   |
+| ------------ | ------------ |
+| Système | Unix (Debian, Ubuntu, Kali), Linux, Windows (Server, 7, 8, 10), VMWare|
+| Réseau | Configuration et gestion d’équipement réseau (OneAccess, Cisco, Jupiter), supervision et sécurisation des réseaux, analyse de traffic avec Wireshark, VPN, TRUNK, NAT, IPv4/6, RIP, OSPF, BGP, MPLS, SNMP, HTTP(S), TELNET, STP, FTP |
+| DevOps | Docker, Git, Gitlab-CI, Github |
+| Développement & Bases de données | Python, Bash, Shell, React.js, C, PHP, HTML/CSS, Java, MySQL, MongoDB, PostgreSQL|
+| Gestion de Projet | Méthodologies Agile / Scrum, pilotage de projet, documentation, transmission des connaissances | 
+| Qualités personnelles | Ésprit d’analyse, résolution de problèmes, adaptabilité, autonomie, collaboration, communication |
+| Langues | Français (langue maternelle), Anglais (C1 - IELTS) | 
+|  |  |
 
-### Diplôme d’ingénieur - Réseaux, informatique et télécommunications
-- IMT Atlantique, Brest, France
-- *2021 - 2024*
 
-### DUT - Réseaux et télécommunications
-- IUT de Saint-Malo, Saint-Malo, France
-- *2019 - 2021*
+# Formation
 
-### Baccalauréat Scientique
-- La Pérouse-Kerichen, Brest, France
-- *2018-2019*
+## Ingénieur généraliste spécialisé en réseaux et télécommunications
+IMT Atlantique • 2021 - 2024 • Brest
 
-## Projets académiques
+## DUT Réseaux et télécommunications
+IUT de Saint-Malo • 2019 - 2021 • Saint-Malo
 
-### Développement d’un ERP Modulaire
+## Baccalauréat Scientifique
+La Pérouse-Kerichen • 2018 - 2019 • Brest
 
-- Objectif concevoir un modèle pédagogique illustrant les enjeux des systèmes distribués.
-- Technologies utilisées : React JS, CSS, HTML, Docker, GitHub
-- Méthodologie : Agile / Sprints
 
-👉 Lire l'article complet : [Projet PROCOM - ERP Modulaire](/ainablog/posts/2025/projet-erp-modulaire/)
+# Projets
 
-[🔗 Lien GitHub du projet](https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP)
+## Développement d’un ERP Modulaire
 
-### Smart Garden
+|     |   |
+| ------------ | ------------ |
+| Objectif | Concevoir un modèle pédagogique illustrant les enjeux des systèmes distribués.|
+| Technologies | React JS, CSS, HTML, Docker, GitHub |
+| Méthodologie | Agile, Sprints |
+|  |  |
 
-- Objectif : améliorer l'organisation des jardins partagés grâce à une plateforme web accessible à tous.
-- Technologies utilisées : Docker, FastAPI (Python), MariaDB, PHPMyAdmin, GitLab
-- Méthodologie : Agile / SCRUM / Sprints
+👉 [Lire l'article](/ainablog/posts/2025/projet-erp-modulaire/)
 
-👉 Lire l'article complet : [Projet - Smart garden](/ainablog/posts/2025/projet-smart-garden/)
+🔗 [GitHub](https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP)
 
-## Loisirs & centres d'intérêt
+## Smart Garden
+
+|     |   |
+| ------------ | ------------ |
+| Objectif | Améliorer l'organisation des jardins partagés grâce à une plateforme web accessible à tous.|
+| Technologies | Docker, FastAPI (Python), MariaDB, PHPMyAdmin, GitLab |
+| Méthodologie | Agile, SCRUM, Sprints |
+|  |  |
+
+👉 [Lire l'article](/ainablog/posts/2025/projet-smart-garden/)
+
+
+# Loisirs & centres d'intérêt
 
 - **Arts** : musique (Flûte traversière, Ukulélé), dessin, musée
 - **Sports** : Handball, Volley-ball, Course
