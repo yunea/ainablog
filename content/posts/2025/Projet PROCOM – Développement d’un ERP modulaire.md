@@ -33,7 +33,7 @@ L'objectif de ce projet est concevoir un modèle pédagogique illustrant les **
 L’ERP développé vise à proposer une solution adaptable aux **petites entreprises** (commerces, restaurants, etc.), capable d’évoluer selon les besoins. Ce projet n’est pas destiné à la commercialisation, mais sert avant tout de **cas d’étude** pour les élèves ingénieurs.
 
 
-!![Image Description](/ainablog/images/poster-procom.jpg)
+![Image Description](/ainablog/images/poster-procom.jpg)
 
 *👉 [Découvrez le projet sur GitHub](https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP)*
 
@@ -69,7 +69,7 @@ IMT-3A-PROCOM-ERP/
 
 Voici un schéma plus visuel des interactions des différents modules entre eux :
 
-!![Image Description](/ainablog/images/schema-archi-procom.png)
+![Image Description](/ainablog/images/schema-archi-procom.png)
 
 Chaque module (Authentification, Annuaire, Commande, Inventaire) est développé indépendamment des uns et des autres ce qui permet de fournir un service personnalisé à un client mais également, en cas de panne, il n'y a pas d'impact généralisé à l'ensemble des modules. 
 
@@ -100,7 +100,7 @@ Réalisation de la charte graphique
 ![[procom-charte-graphique.png|500]]
 
 Réalisation de plusieurs templates des pages afin de choisir le visuel (UI/UX)
-!![Image Description](/ainablog/images/procom-figma-pages.png)
+![Image Description](/ainablog/images/procom-figma-pages.png)
 
 **Frontend UI/UX**
 
@@ -109,11 +109,11 @@ Page de connection du site
 
 Page d'annuaire de l'entreprise
 
-!![Image Description](/ainablog/images/procom-directory.png)
+![Image Description](/ainablog/images/procom-directory.png)
 
 Page de gestion de commande
 
-!![Image Description](/ainablog/images/procom-order-home.png)
+![Image Description](/ainablog/images/procom-order-home.png)
 
 **Défis**
 - Gestion des droits des différents utilisateurs
