@@ -12,25 +12,31 @@ tags:
 - docker
 - reactjs
 - feature
-draft: true
+draft: false
 ---
-## 🎯 Contexte et objectifs
+## 🎯 Contexte 
 
-Dans le cadre de ma dernière année d'ingénieur à l’IMT Atlantique, j’ai participé au développement d’un **ERP modulaire** dans le cadre de l’unité d’enseignement PROCOM. 
+Lors de ma dernière année à l’**IMT Atlantique**, j’ai participé, avec mon groupe, au développement d’un **ERP modulaire**dans le cadre de l’unité d’enseignement **PROCOM**.
 
-Avant de commencer, voici 2 questions importantes : 
-1. Qu'est-ce qu'un ERP ?
-2. Qu'est ce qu'un système distribué ?
+Avant d’entrer dans le détail du projet, il est utile de clarifier deux notions essentielles :
 
-Un progiciel de gestion intégré (**ERP**) est un système logiciel qui aide les entreprises à rationaliser leurs principaux processus, notamment ceux des fonctions Finance, RH, Production, Supply Chain, Ventes et Achats, grâce à une vue unifiée des activités, et qui fournit une version unique de la réalité. 
+### Qu’est-ce qu’un ERP ?
 
-Les systèmes distribués sont un ensemble de composants, de machines et d'applications indépendants qui fonctionnent comme un système unifié.
+Un **ERP** (_Enterprise Resource Planning_, ou _progiciel de gestion intégré_) est un système logiciel qui centralise les processus clés d’une entreprise : **finance, ressources humaines, production, logistique, ventes, achats**, etc. Il fournit une vue unifiée des activités, facilitant la coordination et la prise de décision.
 
-Un ERP est donc parfait pour notre projet puisqu'il est composé de différentes parties fonctionnelles (Finance, RH, Production, Supply Chain, Ventes et Achats) qui peuvent être séparées afin de répondre au besoin du client.
+### Qu’est-ce qu’un système distribué ?
 
-L'objectif de ce projet est concevoir un modèle pédagogique illustrant les **enjeux des systèmes distribués**, à travers un projet concret, collaboratif et technique.
+Un **système distribué** est un ensemble de composants (machines, applications ou services), exécutés sur des entités distinctes, mais fonctionnant ensemble comme un **système unifié et cohérent**.
 
-L’ERP développé vise à proposer une solution adaptable aux **petites entreprises** (commerces, restaurants, etc.), capable d’évoluer selon les besoins. Ce projet n’est pas destiné à la commercialisation, mais sert avant tout de **cas d’étude** pour les élèves ingénieurs.
+---
+
+Un ERP est donc un excellent **cas d’étude** pour illustrer les **principes des systèmes distribués** : chaque fonctionnalité (comptabilité, gestion RH, approvisionnement...) peut être conçue comme un **module indépendant**, interagissant avec les autres.
+
+## 🔬 Objectif du projet
+
+Notre objectif était de **concevoir une maquette pédagogique** permettant d’illustrer les enjeux des **systèmes distribués**, à travers une application web modulaire.
+
+Nous avons développé un ERP destiné à de **petites structures** (TPE, restaurants, commerces...), reposant sur une architecture **flexible**, **personnalisable** et **scalable**. Ce projet n’avait pas vocation à être commercialisé, mais à servir de **support d’apprentissage** pour les élèves-ingénieurs.
 
 
 ![Image Description](/ainablog/images/poster-procom.jpg)
@@ -41,19 +47,18 @@ L’ERP développé vise à proposer une solution adaptable aux **petites entre
 
 ### Stack technique
 
-Le projet s’appuie sur une stack technique moderne et cohérente :
+Notre ERP repose sur une stack technique moderne :
 
 - **Frontend** : React.js, HTML5, CSS3
 - **Backend** : Java 17 avec Spring Boot 3
 - **Base de données** : PostgreSQL 13
 - **Infrastructure** : Docker, Docker Compose, Docker Swarm
 - **CI/CD** : GitHub Actions
-- **Outils de développement** : IntelliJ, VS Code, Neovim
-- **Autres outils** : Postman, Apache Maven, Notion (organisation de l’équipe)
-
+- **Environnements de développement** : IntelliJ, VS Code, Neovim
+- **Outils divers** : Postman, Maven, Notion
 ### Architecture du projet
 
-Le projet est structuré selon une **architecture modulaire**, chaque fonctionnalité (RH, stocks, ventes…) étant développée sous forme de **micro-service** :
+Le projet suit une **architecture micro-services**. Chaque fonctionnalité (authentification, commandes, inventaire...) est développée comme un service indépendant, facilitant l’évolutivité et la résilience de l’ensemble.
 
 ```vbnet
 IMT-3A-PROCOM-ERP/
@@ -67,91 +72,76 @@ IMT-3A-PROCOM-ERP/
 ├── docs/               → Documentation technique et utilisateur
 ```
 
-Voici un schéma plus visuel des interactions des différents modules entre eux :
+
+Le schéma d'architecture représente l'**organisation des services** de l'ERP :
 
 ![Image Description](/ainablog/images/schema-archi-procom.png)
 
-Chaque module (Authentification, Annuaire, Commande, Inventaire) est développé indépendamment des uns et des autres ce qui permet de fournir un service personnalisé à un client mais également, en cas de panne, il n'y a pas d'impact généralisé à l'ensemble des modules. 
+- Services fonctionnels : Authentification, Commande, Inventaire, Annuaire
+- Infrastructure : un Message Broker (RabbitMQ) permet la communication entre les services, et une Gateway centralise les requêtes API.
+- Le Front-end sert d’interface visuelle à l’utilisateur.
+- Chaque module peut évoluer indépendamment, ce qui reflète bien l’architecture des micro-services.
 
-## 👥 Organisation de l’équipe
+## 👥 Organisation
 
-### Équipe 
+### Rôles de l’équipe
 
-Le travail s’est effectué en équipe de 5 personnes. Dès le début du projet des rôles ont été attribués en fonction des appétences et de la personnalité de chacun.
+Le travail a été réalisé en équipe de 5. Voici les principaux rôles :
 
-- BOPS (from 2023-10-01 until 2024-03-31): _Project Manager_, _Backend Engineer & Developer_, _Security Support_, _System Support_
-- maestro-bene (from 2023-10-01): _Backend Engineer & Developer_, _System Administrator_, _Head of Security_
-- Antoine (from 2023-10-01 until 2024-03-31): _Product Owner Support_, _Frontend & UI/UX Support_
-- ArthurMaquinImt (from 2023-10-01 until 2024-03-31): _Backend Engineer & Developer_
-- yunea (from 2023-10-01 until 2024-03-31): _Frontend & UI/UX Developer_
+- BOPS : Project Manager, Backend, Sécurité, Système
+- maestro-bene : Backend, Système, Sécurité
+- Antoine : Frontend, UI/UX, Product Owner support
+- ArthurMaquinImt : Backend Engineer
+- yunea (moi) : Frontend, UI/UX
 
-### Frontend
+### Collaboration & organisation
 
-J’ai personnellement contribué en tant que **développeuse Frontend & UI/UX** :
-- Réalisation du design dans Figma
-- Intégration des interfaces utilisateur en React
-- Conception des modules front
-- Collaboration avec les Backend Engineer dans la conception des API backend
-- Intégration de la communication avec les API backend
+Pour organiser notre travail, j’ai mis en place un espace collaboratif sur **Notion**. Il centralisait toutes les informations utiles au projet : planning, suivis de tâches (kanban, backlog, todo list) et ressources partagées. Cela nous a permis d’avoir une vision claire et structurée des avancements.
+
+La communication quotidienne se faisait via un **serveur Discord dédié**. Ce dernier a joué un rôle essentiel, à la fois pour les échanges internes à l’équipe, mais aussi pour la communication avec le **corps enseignant**. Il nous permettait de poser rapidement nos questions, de réagir efficacement aux retours, et de maintenir une excellente fluidité dans les échanges. Des salons vocaux et textuels thématiques facilitaient la répartition des discussions et le suivi des décisions.
+### Méthodologie agile
+
+Nous avons adopté une méthode **Scrum**, avec des sprints de deux semaines. Chaque sprint définissait des objectifs concrets à atteindre, et des réunions hebdomadaires permettaient d’assurer un suivi régulier, de lever les blocages éventuels, et de renforcer la cohésion de groupe. L’implication de chacun était significative, avec un volume de travail hebdomadaire compris entre 20h et 30h par semaine.
+
+## 💡 Ma contribution
+
+En tant que **développeuse front-end**, j’ai participé activement à la conception des interfaces et à leur intégration dans l’application. J’ai travaillé sur :
+
+- la création de la charte graphique et des maquettes via Figma,
+- le développement de l’ensemble du site côté front-end, en assurant la création et l’intégration des différentes pages React,
+- la logique conditionnelle des affichages et la gestion des droits utilisateurs,
+- l’intégration des API fournies par les services back-end.
+
+---
+
+Voici quelques aperçus du travail réalisé :
 
 **Figma**
 
-Réalisation de la charte graphique
+Charte graphique : 
+
 ![[procom-charte-graphique.png|500]]
 
-Réalisation de plusieurs templates des pages afin de choisir le visuel (UI/UX)
+Templates des pages : 
+
 ![Image Description](/ainablog/images/procom-figma-pages.png)
 
-**Frontend UI/UX**
+---
 
-Page de connection du site 
+**Interfaces front-end**
+
+Page de connexion : 
+
 ![[procom-front-login.png|500]]
 
-Page d'annuaire de l'entreprise
+Page de l'annuaire : 
 
 ![Image Description](/ainablog/images/procom-directory.png)
 
-Page de gestion de commande
+Page de la gestion des commandes : 
 
 ![Image Description](/ainablog/images/procom-order-home.png)
 
-**Défis**
-- Gestion des droits des différents utilisateurs
-- Gestion des modules disponibles -> si un module n'est pas disponible, il ne doit pas apparaitre dans l'interface
-- Gestion du temps 
+## 🔺 Conclusion
 
-### Notion
-
-J’ai également **mis en place des outils collaboratifs**, notamment via un espace de travail **Notion** commun, qui a permis de centraliser toutes les informations liées au projet. Chaque membre de l'équipe possédait un espace personnel en plus de l'espace commun. Cet outil nous a permis d'assurer le partage homogène des informations au sein de l'équipe en les regroupant sous différente forme. 
-Les informations disponibles étaient : 
-- un calendrier avec toutes les informations nécessaires liées au projet (deadline, réunion, évènement, gantt)
-- une page avec toutes les tâches à faire pour la réalisation du projet
-- une page sous la forme d'un kanban avec toutes les tâches à réaliser lors du sprint en cours avec la possibilité d'ajouter des filtres à la convenance de chacun
-- un tableau regroupant différentes ressources (idées, ressources, documents) avec des vues différentes en fonction des besoins
-
-### Méthodologie
-
-La méthodologie agile est celle choisi pour ce projet. Les sprints duraient 2 semaines avec des objectifs et des tâches précis. Le programme était serré puisque c'est un projet conséquent qui se déroulait en même temps que d'autre cours et sur une période de 5 mois avec une présentation du projet à réaliser à la fin lors d'un évènement. L'investissement horaire des membres du groupe était de 20h à 30h par semaine en fonction des rôles. Une réunion était organisée toutes les semaines afin de faire le point sur l'avancement et les difficultés de chacun. Ces réunions nous permettaient également de nous assurer du moral de tout le monde et qu'aucun retard n'était à annoncer.
-
-## 💡 Défis rencontrés
-
-Comme tout projet d'envergure, nous avons rencontré quelques obstacles intéressants :
-
-- **Communication entre les services** (backend – base de données – frontend)
-- La **coordination des modules**, parfois développés en parallèle
-- L’adoption des **certificats de sécurité** pour les communications en HTTPS
-- La mise en place d’un **environnement Dockerisé complet** (multi-conteneurs, mode Swarm)
-- La gestion des contributions avec GitHub dans un cadre multi-dev
-
-## 📚 Ce que j’ai appris
-
-Cette expérience a été très riche :
-- Approfondissement de mes compétences en **React**, intégration API et gestion des états
-- Compréhension des **architectures distribuées**
-- Collaboration autour de **micro-services**
-- Utilisation avancée de **Docker et Docker Compose**
-- Amélioration de mes pratiques de développement en équipe (versioning, code review, CI/CD)
-
-## 🔚 Conclusion
-
-Ce projet a été l’occasion de **travailler sur une vraie stack technique complète**, avec des exigences proches du monde professionnel. Il m’a permis de mieux appréhender la gestion de projet en équipe, les systèmes distribués, et les outils d’orchestration modernes.
+Ce projet a été une véritable immersion dans une **stack technique complète** et un environnement proche du monde professionnel. Il m’a permis de renforcer mes compétences en **développement web**, en **architecture logicielle** et en **gestion de projet collaboratif**.

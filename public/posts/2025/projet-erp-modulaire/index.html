@@ -4,9 +4,9 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Projet - Smart garden | Aina</title>
+<title>Projet PROCOM – Développement d’un ERP modulaire | Aina</title>
 
-<meta name="description" content="Projet visant à améliorer l&#39;organisation des jardins partagés grâce à une plateforme web accessible à tous.">
+<meta name="description" content="L’objectif de ce projet est de concevoir un modèle pédagogique illustrant les enjeux des systèmes distribués.">
       <link rel="stylesheet" href="/ainablog/css/main.min.584aed796ba9d245f84009d57da9662e9c02059611972780263728b442fc25ff.css" integrity="sha256-WErteWup0kX4QAnVfalmLpwCBZYRlyeAJjcotEL8Jf8=" crossorigin="anonymous">
 
 <link rel="icon" type="image/svg+xml" href="https://yunea.github.io/ainablog/favicon.svg"> 
@@ -89,11 +89,11 @@
 
     <header class="not-prose">
 
-      <h1 id="title" class="text-4xl font-bold leading-normal">Projet - Smart garden</h1>
+      <h1 id="title" class="text-4xl font-bold leading-normal">Projet PROCOM – Développement d’un ERP modulaire</h1>
 
       <div id="lead" class="my-6">
 
-        <p class="font-bold">Projet visant à améliorer l&#39;organisation des jardins partagés grâce à une plateforme web accessible à tous. </p>
+        <p class="font-bold">L’objectif de ce projet est de concevoir un modèle pédagogique illustrant les enjeux des systèmes distribués. </p>
 
       </div>
 
@@ -110,7 +110,7 @@
           </li>
 
           <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
-            7 min read
+            4 min read
           </li>
 
         </ul>
@@ -127,78 +127,99 @@
     </figure>
 
     <div id="content" class="mb-14">
-      <p>Cet article présente un projet scolaire mené durant le premier semestre de ma dernière année d&rsquo;ingénieur, dans le cadre de la thématique d’approfondissement (TAF) intitulé <strong>COOC – Conception d’Objets Communicants</strong>, à <strong>IMT Atlantique</strong>.</p>
-<p>Réalisé en groupe de quatre, ce projet nous a permis d’explorer des problématiques concrètes liées à l’organisation des jardins partagés, tout en mobilisant des compétences techniques avancées autour de l’Internet des Objets (IoT) et du développement logiciel. J’ai occupé le rôle de <strong>cheffe de projet</strong> ainsi que celui de <strong>développeuse back-end</strong>, en charge notamment de la mise en place de l’infrastructure <strong>Docker</strong> et du développement de l’<strong>API</strong>.</p>
-<p>Ce travail, alliant recherche de terrain et prototypage d’une solution technique, nous a permis de proposer une application innovante, pensée pour répondre aux besoins concrets liés à la gestion d&rsquo;un jardin partagé.</p>
-<h2 id="1-état-de-lart--les-jardins-partagés-entre-écologie-et-lien-social">1. État de l&rsquo;art : les jardins partagés, entre écologie et lien social</h2>
-<p>Les jardins partagés connaissent un essor notable en France, notamment dans les zones urbaines où ils répondent à un besoin croissant de nature et de convivialité. Ces espaces verts collectifs favorisent la biodiversité, renforcent les liens sociaux et contribuent à une alimentation plus durable. Leur développement s&rsquo;inscrit dans des scénarios de transition écologique, promus par des institutions comme l&rsquo;ADEME, qui valorisent des approches frugales et coopératives.​</p>
-<h3 id="conclusion-de-létat-de-lart">Conclusion de l&rsquo;état de l&rsquo;art</h3>
-<p>Notre réflexion a débuté avec deux thèmes principaux concernant les hypothèses de départ : la gestion des ressources, notamment de l’eau et la gestion des plantes en temps réel. Dans le but d’affiner ces hypothèses, nous avons par notre recherche pu identifier des premières difficultés rencontrées dans les jardins, appréhender les solutions existantes pouvant y être liées et déterminer la liste des acteurs de ces espaces, que nous avons par la suite pu rencontrer pour confirmer notre recherche documentaire et compléter certaines informations. </p>
-<p>La problématique qui ressort de toutes ces recherches est donc “Comment faciliter l’organisation des jardins partagés qui ne possèdent pas d’animateur et fédérer les habitants lorsqu’il y a un manque de compétences techniques ?”.</p>
-<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2023/10/22/jardin-partage/">Jardin Partagé – État de l&rsquo;art</a></p>
-<h2 id="2-enquête-terrain--comprendre-les-dynamiques-locales">2. Enquête terrain : comprendre les dynamiques locales</h2>
-<p>Pour mieux appréhender les réalités des jardins partagés, une enquête de terrain a été menée à Brest. Cette étude a révélé le rôle central des collectivités locales et des associations, telles que Vert le Jardin, dans la création et la gestion de ces espaces. Elle a également mis en lumière les défis liés à la coordination entre les différents acteurs et la nécessité d&rsquo;outils facilitant l&rsquo;organisation et la communication au sein des jardins.​</p>
-<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2023/10/27/jardin-partage-enquete-terrain/">Jardin Partagé – Enquête terrain</a></p>
-<h2 id="3-solution-technique--smartgarden-une-application-au-service-des-jardiniers">3. Solution technique : SmartGarden, une application au service des jardiniers</h2>
-<p>Face aux défis identifiés, le projet SmartGarden propose une solution innovante combinant technologie et accessibilité. Il s&rsquo;agit d&rsquo;une application web connectée à des capteurs, permettant aux membres d&rsquo;un jardin partagé de :​</p>
+      <h2 id="-contexte">🎯 Contexte</h2>
+<p>Lors de ma dernière année à l’<strong>IMT Atlantique</strong>, j’ai participé, avec mon groupe, au développement d’un <strong>ERP modulaire</strong>dans le cadre de l’unité d’enseignement <strong>PROCOM</strong>.</p>
+<p>Avant d’entrer dans le détail du projet, il est utile de clarifier deux notions essentielles :</p>
+<h3 id="quest-ce-quun-erp-">Qu’est-ce qu’un ERP ?</h3>
+<p>Un <strong>ERP</strong> (<em>Enterprise Resource Planning</em>, ou <em>progiciel de gestion intégré</em>) est un système logiciel qui centralise les processus clés d’une entreprise : <strong>finance, ressources humaines, production, logistique, ventes, achats</strong>, etc. Il fournit une vue unifiée des activités, facilitant la coordination et la prise de décision.</p>
+<h3 id="quest-ce-quun-système-distribué-">Qu’est-ce qu’un système distribué ?</h3>
+<p>Un <strong>système distribué</strong> est un ensemble de composants (machines, applications ou services), exécutés sur des entités distinctes, mais fonctionnant ensemble comme un <strong>système unifié et cohérent</strong>.</p>
+<hr>
+<p>Un ERP est donc un excellent <strong>cas d’étude</strong> pour illustrer les <strong>principes des systèmes distribués</strong> : chaque fonctionnalité (comptabilité, gestion RH, approvisionnement&hellip;) peut être conçue comme un <strong>module indépendant</strong>, interagissant avec les autres.</p>
+<h2 id="-objectif-du-projet">🔬 Objectif du projet</h2>
+<p>Notre objectif était de <strong>concevoir une maquette pédagogique</strong> permettant d’illustrer les enjeux des <strong>systèmes distribués</strong>, à travers une application web modulaire.</p>
+<p>Nous avons développé un ERP destiné à de <strong>petites structures</strong> (TPE, restaurants, commerces&hellip;), reposant sur une architecture <strong>flexible</strong>, <strong>personnalisable</strong> et <strong>scalable</strong>. Ce projet n’avait pas vocation à être commercialisé, mais à servir de <strong>support d’apprentissage</strong> pour les élèves-ingénieurs.</p>
+<p><img src="/ainablog/images/poster-procom.jpg" alt="Image Description"></p>
+<p><em>👉 <a href="https://github.com/PROCOM-ERP/IMT-3A-PROCOM-ERP">Découvrez le projet sur GitHub</a></em></p>
+<h2 id="-stack-technique--architecture">⚙️ Stack technique &amp; architecture</h2>
+<h3 id="stack-technique">Stack technique</h3>
+<p>Notre ERP repose sur une stack technique moderne :</p>
 <ul>
-<li>Suivre en temps réel les conditions du jardin (humidité, température, etc.)​</li>
-<li>Consulter et planifier les tâches à réaliser​</li>
-<li>Accéder à des fiches pratiques pour l&rsquo;entretien des cultures​</li>
+<li><strong>Frontend</strong> : React.js, HTML5, CSS3</li>
+<li><strong>Backend</strong> : Java 17 avec Spring Boot 3</li>
+<li><strong>Base de données</strong> : PostgreSQL 13</li>
+<li><strong>Infrastructure</strong> : Docker, Docker Compose, Docker Swarm</li>
+<li><strong>CI/CD</strong> : GitHub Actions</li>
+<li><strong>Environnements de développement</strong> : IntelliJ, VS Code, Neovim</li>
+<li><strong>Outils divers</strong> : Postman, Maven, Notion</li>
 </ul>
-<p>Le système repose sur une architecture modulaire avec un boîtier de capteurs, une base de données et une interface utilisateur développée en ReactJS. L&rsquo;objectif est de faciliter la gestion des jardins, même en l&rsquo;absence de référent, en favorisant l&rsquo;autonomie et la collaboration entre les membres.​</p>
-<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2024/01/15/jardin-partage-solution-technique/">Jardin Partagé – Solution Technique</a></p>
-<h2 id="ma-contribution-dans-ce-projet">Ma contribution dans ce projet</h2>
-<h3 id="cheffe-de-projet">Cheffe de projet</h3>
-<p>Dans le cadre de ce projet, j’ai assuré le rôle de <strong>cheffe de projet</strong>, avec pour missions principales :</p>
+<h3 id="architecture-du-projet">Architecture du projet</h3>
+<p>Le projet suit une <strong>architecture micro-services</strong>. Chaque fonctionnalité (authentification, commandes, inventaire&hellip;) est développée comme un service indépendant, facilitant l’évolutivité et la résilience de l’ensemble.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vbnet" data-lang="vbnet"><span style="display:flex;"><span>IMT<span style="color:#f92672">-</span>3A<span style="color:#f92672">-</span>PROCOM<span style="color:#f92672">-</span>ERP<span style="color:#f92672">/</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">├──</span> src<span style="color:#f92672">/</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">│</span>   <span style="color:#960050;background-color:#1e0010">├──</span> frontend<span style="color:#f92672">/</span>       <span style="color:#960050;background-color:#1e0010">→</span> <span style="color:#66d9ef">Interface</span> React
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">│</span>   <span style="color:#960050;background-color:#1e0010">├──</span> backend<span style="color:#f92672">/</span>        <span style="color:#960050;background-color:#1e0010">→</span> Microservices Java (Spring Boot)
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">│</span>   <span style="color:#960050;background-color:#1e0010">└──</span> databases<span style="color:#f92672">/</span>      <span style="color:#960050;background-color:#1e0010">→</span> Scripts et confs PostgreSQL
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">├──</span> docker<span style="color:#f92672">/</span>             <span style="color:#960050;background-color:#1e0010">→</span> Dockerfiles, Docker Compose
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">├──</span> system<span style="color:#f92672">/</span>             <span style="color:#960050;background-color:#1e0010">→</span> Scripts système et entrypoints
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">├──</span> security<span style="color:#f92672">/</span>           <span style="color:#960050;background-color:#1e0010">→</span> Certificats, secrets, déploiement sécurisé
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">├──</span> docs<span style="color:#f92672">/</span>               <span style="color:#960050;background-color:#1e0010">→</span> Documentation technique et utilisateur
+</span></span></code></pre></div><p>Le schéma d&rsquo;architecture représente l&rsquo;<strong>organisation des services</strong> de l&rsquo;ERP :</p>
+<p><img src="/ainablog/images/schema-archi-procom.png" alt="Image Description"></p>
 <ul>
-<li>La <strong>répartition des tâches</strong> de manière équitable entre les membres de l’équipe, en tenant compte des compétences, disponibilités et intérêts de chacun ;</li>
-<li>L’<strong>animation des réunions hebdomadaires</strong>, afin de suivre l’avancement, identifier les blocages et ajuster les priorités si nécessaire ;</li>
-<li>La <strong>coordination globale de l’équipe</strong>, pour assurer la cohérence des travaux et le respect du planning.</li>
+<li>Services fonctionnels : Authentification, Commande, Inventaire, Annuaire</li>
+<li>Infrastructure : un Message Broker (RabbitMQ) permet la communication entre les services, et une Gateway centralise les requêtes API.</li>
+<li>Le Front-end sert d’interface visuelle à l’utilisateur.</li>
+<li>Chaque module peut évoluer indépendamment, ce qui reflète bien l’architecture des micro-services.</li>
 </ul>
-<p>Nous avons adopté une organisation basée sur la <strong>méthode agile</strong>, et plus spécifiquement <strong>SCRUM</strong>, avec des sprints de trois semaines ponctués de points hebdomadaires. Chaque sprint était préparé en amont par la rédaction de user stories, l’attribution d’un poids (effort estimé) à chaque tâche, et leur organisation dans une application de gestion visuelle (type tableau Kanban). Ce cadre méthodologique nous a permis de garder une vue d’ensemble claire sur l’avancement, d’anticiper les éventuels blocages, et d’encourager une autonomie structurée au sein de l’équipe.</p>
-<h3 id="développeuse-backend">Développeuse backend</h3>
-<p>Le back-end de l’application se compose de trois éléments essentiels : le système d’exploitation, la base de données, et l’interface de programmation (API).</p>
-<h4 id="système-dexploitation">Système d’exploitation</h4>
-<p>Le cœur du système d’exploitation repose sur Docker. Docker est une plateforme qui permet de lancer des applications dans des conteneurs. L’objectif d’un conteneur est d’héberger des services sur un même serveur physique (dans notre cas nos machines personnelles) tout en les isolant les uns des autres.</p>
-<p>Cette plateforme nous offre également un environnement uniforme pour tous les membres du projet. Cette uniformité facilite l’intégration et le regroupement des différentes composantes développées par chacun des contributeurs.</p>
-<p>Le fonctionnement des conteneurs Docker au sein de notre infrastructure Smart Garden repose sur l’utilisation de deux composants essentiels : Docker Compose et les fichiers Dockerfile. Cette approche garantit une configuration simplifiée et une mise en œuvre efficace de l’environnement de développement.</p>
-<p>Le fichier docker-compose.yml définit l’ensemble des services et des paramètres nécessaires à notre application. Chaque service, tel que la base de données MariaDB, l’interface PHPMyAdmin, le front-end, le back-end et le service de capteurs, est configuré de manière à interagir au sein du réseau dédié smartgarden-network. Des volumes sont utilisés pour assurer la persistance des données de la base de données, tandis que les dépendances entre les services sont gérées avec l’instruction depends_on, garantissant un démarrage ordonné.</p>
-<p>Les fichiers Dockerfile, situés dans les répertoires ./frontend, ./backend, et ./sensor, définissent les instructions nécessaires pour construire les images Docker correspondantes. Chacun de ces fichiers permet de décrire l’environnement d’exécution, les dépendances et les étapes spécifiques à chaque composant de l’application. Ces fichiers Dockerfile sont intégrés dans le fichier docker-compose.yml pour assurer une cohérence lors du déploiement de l’ensemble de l’application.</p>
-<p>Une fois l’application déployée dans Docker, il est possible d’accéder au front-end, à PHPMyAdmin (pour gérer et visualiser la base de données) et à la page de l’API depuis l’adresse du localhost en sélectionnant des ports dédiés. Ces ports sont configurés dans le fichier docker-compose.yml, les fichiers Dockerfile et parfois les fichiers de configuration des services.</p>
-<h4 id="base-de-données">Base de données</h4>
-<p>Pour la gestion des données, nous avons opté pour MariaDB, un système de gestion de base de données relationnelles. Cette solution est complétée par l’utilisation de PHPMyAdmin, une interface web qui simplifie la manipulation et la visualisation des données stockées.</p>
-<p>PHPMyAdmin nous a principalement été utile au début du projet afin de mettre en place les premières versions des bases de données. Cet outil nous a permis de faire de nombreux tests avant que l’API ne soit disponible dans l’application.</p>
-<p>Dans ce projet nous avons pensé à une base de données simple. Voici le schéma de la base de données : 
-<img src="/ainablog/images/smartgarden-schema-bdd.png" alt="Image Description">
-Diagramme UML de la base de données</p>
-<h4 id="api">API</h4>
-<p>L’interface de programmation (API) repose sur FastAPI, un framework Python moderne et performant. Le serveur Python s’interface avec la base de données et expose des points d’accès pour la gestion des différents éléments nécessaires dans le site web (front-end).</p>
-<p>FastAPI utilise la librairie Pydantic pour définir les modèles de données, facilitant ainsi la validation des données entrantes et sortantes. Chaque point d’accès est défini comme une fonction asynchrone associée à une route particulière. Chaque entité (Jardin, Parcelle, Action, etc.) dispose de points d’accès spécifiques pour la création, la lecture, la mise à jour et la suppression des données.</p>
-<p>En résumé, notre API FastAPI offre un ensemble de points d’accès structurés pour la gestion des données de notre application Smart Garden et les modèles Pydantic garantissent la validité des données.</p>
-<p>Un serveur Python fonctionne en parallèle avec un script Python dédié à la récupération des relevés des capteurs à partir du protocole MQTT. Ces données sont ensuite intégrées de manière transparente dans la base de données, assurant ainsi une mise à jour constante et en temps réel.</p>
-<p><img src="/ainablog/images/smartgarden-schema-api.png" alt="Image Description">
-Schéma représentant les interactions entre les services</p>
-<p>👉 Découvrir le dépôt GitLab du projet : <a href="https://gitlab.imt-atlantique.fr/m20chevr/smartgarden">Smart Garden - GitLab</a></p>
-<h2 id="ressources">Ressources</h2>
+<h2 id="-organisation">👥 Organisation</h2>
+<h3 id="rôles-de-léquipe">Rôles de l’équipe</h3>
+<p>Le travail a été réalisé en équipe de 5. Voici les principaux rôles :</p>
 <ul>
-<li>Dépôt GitLab du projet : <a href="https://gitlab.imt-atlantique.fr/m20chevr/smartgarden">Smart Garden - GitLab</a></li>
-<li>Les articles du projet :
+<li>BOPS : Project Manager, Backend, Sécurité, Système</li>
+<li>maestro-bene : Backend, Système, Sécurité</li>
+<li>Antoine : Frontend, UI/UX, Product Owner support</li>
+<li>ArthurMaquinImt : Backend Engineer</li>
+<li>yunea (moi) : Frontend, UI/UX</li>
+</ul>
+<h3 id="collaboration--organisation">Collaboration &amp; organisation</h3>
+<p>Pour organiser notre travail, j’ai mis en place un espace collaboratif sur <strong>Notion</strong>. Il centralisait toutes les informations utiles au projet : planning, suivis de tâches (kanban, backlog, todo list) et ressources partagées. Cela nous a permis d’avoir une vision claire et structurée des avancements.</p>
+<p>La communication quotidienne se faisait via un <strong>serveur Discord dédié</strong>. Ce dernier a joué un rôle essentiel, à la fois pour les échanges internes à l’équipe, mais aussi pour la communication avec le <strong>corps enseignant</strong>. Il nous permettait de poser rapidement nos questions, de réagir efficacement aux retours, et de maintenir une excellente fluidité dans les échanges. Des salons vocaux et textuels thématiques facilitaient la répartition des discussions et le suivi des décisions.</p>
+<h3 id="méthodologie-agile">Méthodologie agile</h3>
+<p>Nous avons adopté une méthode <strong>Scrum</strong>, avec des sprints de deux semaines. Chaque sprint définissait des objectifs concrets à atteindre, et des réunions hebdomadaires permettaient d’assurer un suivi régulier, de lever les blocages éventuels, et de renforcer la cohésion de groupe. L’implication de chacun était significative, avec un volume de travail hebdomadaire compris entre 20h et 30h par semaine.</p>
+<h2 id="-ma-contribution">💡 Ma contribution</h2>
+<p>En tant que <strong>développeuse front-end</strong>, j’ai participé activement à la conception des interfaces et à leur intégration dans l’application. J’ai travaillé sur :</p>
 <ul>
-<li><a href="https://telefab.fr/2023/10/22/jardin-partage/">Jardin Partagé – État de l&rsquo;art</a></li>
-<li><a href="https://telefab.fr/2023/10/27/jardin-partage-enquete-terrain/">Jardin Partagé – Enquête terrain</a></li>
-<li><a href="https://telefab.fr/2024/01/15/jardin-partage-solution-technique/">Jardin Partagé – Solution Technique</a></li>
+<li>la création de la charte graphique et des maquettes via Figma,</li>
+<li>le développement de l’ensemble du site côté front-end, en assurant la création et l’intégration des différentes pages React,</li>
+<li>la logique conditionnelle des affichages et la gestion des droits utilisateurs,</li>
+<li>l’intégration des API fournies par les services back-end.</li>
 </ul>
-</li>
-</ul>
+<hr>
+<p>Voici quelques aperçus du travail réalisé :</p>
+<p><strong>Figma</strong></p>
+<p>Charte graphique :</p>
+<p>![[procom-charte-graphique.png|500]]</p>
+<p>Templates des pages :</p>
+<p><img src="/ainablog/images/procom-figma-pages.png" alt="Image Description"></p>
+<hr>
+<p><strong>Interfaces front-end</strong></p>
+<p>Page de connexion :</p>
+<p>![[procom-front-login.png|500]]</p>
+<p>Page de l&rsquo;annuaire :</p>
+<p><img src="/ainablog/images/procom-directory.png" alt="Image Description"></p>
+<p>Page de la gestion des commandes :</p>
+<p><img src="/ainablog/images/procom-order-home.png" alt="Image Description"></p>
+<h2 id="-conclusion">🔺 Conclusion</h2>
+<p>Ce projet a été une véritable immersion dans une <strong>stack technique complète</strong> et un environnement proche du monde professionnel. Il m’a permis de renforcer mes compétences en <strong>développement web</strong>, en <strong>architecture logicielle</strong> et en <strong>gestion de projet collaboratif</strong>.</p>
 
 
     <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
 
       <li class="font-semibold my-4">Tags:</li>
-        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/reactjs/">Reactjs</a></li>
         <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/docker/">Docker</a></li>
-        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/fastapi/">FastAPI</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/reactjs/">Reactjs</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/feature/">Feature</a></li>
     </ul>
 </div>
 
@@ -255,9 +276,9 @@ Schéma représentant les interactions entre les services</p>
 
         <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="https://yunea.github.io/ainablog/posts/2025/projet-erp-modulaire/"></a>
+	<a class="insert-link" href="https://yunea.github.io/ainablog/posts/2025/projet-smart-garden/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://yunea.github.io/ainablog/images/logo-reactjs_hu_291afe59ae73c5de.png" alt="Projet PROCOM – Développement d’un ERP modulaire" width="750" height="404">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://yunea.github.io/ainablog/images/logo-reactjs_hu_291afe59ae73c5de.png" alt="Projet - Smart garden" width="750" height="404">
 
 	  </figure>
 
@@ -265,9 +286,26 @@ Schéma représentant les interactions entre les services</p>
 
 		<time datetime="2025-04-13T00:00:00&#43;00:00">Apr 13, 2025</time>
 
-		<h3 class="my-4 text-2xl font-bold">Projet PROCOM – Développement d’un ERP modulaire</h3>
+		<h3 class="my-4 text-2xl font-bold">Projet - Smart garden</h3>
 
-		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">L’objectif de ce projet est de concevoir un modèle pédagogique illustrant les enjeux des systèmes distribués.</p>
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Projet visant à améliorer l&#39;organisation des jardins partagés grâce à une plateforme web accessible à tous.</p>
+
+	</div>
+</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+	
+	<a class="insert-link" href="https://yunea.github.io/ainablog/posts/2025/creation-de-site-web-avec-hugo/"></a>
+
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://yunea.github.io/ainablog/images/hugo_hu_3d2ad48e9ca0ea70.png" alt="Comment j&#39;ai créé mon site web avec Hugo" width="750" height="353">
+
+	  </figure>
+
+	<div class="p-6">
+
+		<time datetime="2025-04-12T00:00:00&#43;00:00">Apr 12, 2025</time>
+
+		<h3 class="my-4 text-2xl font-bold">Comment j&#39;ai créé mon site web avec Hugo</h3>
+
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Étapes détaillées de la création de mon site web statique avec Hugo, depuis l&#39;idée jusqu&#39;à la mise en ligne.</p>
 
 	</div>
 </article>
