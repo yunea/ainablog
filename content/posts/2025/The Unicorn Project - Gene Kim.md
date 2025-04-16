@@ -20,7 +20,7 @@ Dans _The Unicorn Project_, **Maxine**, développeuse senior et architecte inf
 
 Alors qu’elle tente de retrouver un peu de sens dans ce chaos organisationnel, Maxine est approchée par un petit groupe de développeurs rebelles. Leur but ? **Renverser l’ordre établi**, redonner aux équipes techniques **autonomie et plaisir au travail**, et aider l’entreprise à **retrouver sa capacité à innover** dans un monde numérique en constante évolution.
 
-Peu à peu, Maxine s’implique dans ce mouvement souterrain — surnommé _The Rebellion_ — et en devient une figure centrale, au risque de se faire de puissants ennemis. Ce roman, **spin-off du best-seller [*The Phoenix Project](/ainablog/posts/2025/the-phoenix-project/), offre une plongée captivante dans les coulisses d’une transformation numérique, vue du point de vue des développeurs.
+Peu à peu, Maxine s’implique dans ce mouvement souterrain — surnommé _The Rebellion_ — et en devient une figure centrale, au risque de se faire de puissants ennemis. Ce roman, **spin-off du best-seller [The Phoenix Project](/ainablog/posts/2025/the-phoenix-project/), offre une plongée captivante dans les coulisses d’une transformation numérique, vue du point de vue des développeurs.**
 
 ## 💡 Concepts clés du livre
 
