@@ -12,8 +12,6 @@ tags:
 draft: false
 ---
 
-![Image Description](/ainablog/images/couverture-the-phoenix-project.jpg)
-
 ## 📖 Résumé
 
 Dans _The Phoenix Project_, nous suivons **Bill Palmer**, un manager IT récemment promu responsable des opérations informatiques chez **Parts Unlimited**, une entreprise en grande difficulté. À peine nommé, Bill se voit confier une mission à haut risque : sauver le **Projet Phoenix**, un projet logiciel stratégique censé relancer l’activité de l’entreprise… mais qui accumule les retards, les bugs, et les échecs.
@@ -23,6 +21,8 @@ Très vite, Bill se retrouve submergé par les incidents, les demandes contradic
 C’est alors qu’il fait la rencontre d’un mystérieux mentor, **Erik**, qui l’initie à une nouvelle manière de voir l’IT : comme une **chaîne de valeur**, inspirée des principes du Lean et du DevOps. Avec l’aide de quelques alliés inattendus, Bill s’engage dans une transformation profonde de la culture et des pratiques de son organisation — au service de la performance, de l’innovation et de la collaboration.
 
 Ce roman, à mi-chemin entre la fiction professionnelle et le manuel de transformation agile, a marqué des milliers de lecteurs à travers le monde et est devenu une **référence dans le monde du DevOps**.
+
+![Image Description](/ainablog/images/couverture-the-phoenix-project.jpg)
 
 ## 💡 Concepts clés du livre
 
