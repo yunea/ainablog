@@ -4,9 +4,9 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Projet COoC - Smart garden | Aina</title>
+<title>The Phoenix Project - Gene Kim | Aina</title>
 
-<meta name="description" content="Projet visant à améliorer l&#39;organisation des jardins partagés grâce à une plateforme web accessible à tous.">
+<meta name="description" content="Quand le chaos devient opportunité : le roman qui rend le DevOps passionnant">
       <link rel="stylesheet" href="/ainablog/css/main.min.584aed796ba9d245f84009d57da9662e9c02059611972780263728b442fc25ff.css" integrity="sha256-WErteWup0kX4QAnVfalmLpwCBZYRlyeAJjcotEL8Jf8=" crossorigin="anonymous">
 
 <link rel="icon" type="image/svg+xml" href="https://yunea.github.io/ainablog/favicon.svg"> 
@@ -89,11 +89,11 @@
 
     <header class="not-prose">
 
-      <h1 id="title" class="text-4xl font-bold leading-normal">Projet COoC - Smart garden</h1>
+      <h1 id="title" class="text-4xl font-bold leading-normal">The Phoenix Project - Gene Kim</h1>
 
       <div id="lead" class="my-6">
 
-        <p class="font-bold">Projet visant à améliorer l&#39;organisation des jardins partagés grâce à une plateforme web accessible à tous. </p>
+        <p class="font-bold">Quand le chaos devient opportunité : le roman qui rend le DevOps passionnant </p>
 
       </div>
 
@@ -106,11 +106,11 @@
 
           <li class="font-semibold my-2">Aïna Dirou</li>
 
-          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2"><time datetime="2025-04-13T00:00:00&#43;00:00">April 13, 2025</time>
+          <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2"><time datetime="2025-04-15T00:00:00&#43;00:00">April 15, 2025</time>
           </li>
 
           <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
-            7 min read
+            3 min read
           </li>
 
         </ul>
@@ -120,85 +120,40 @@
     </header>
 
     <figure id="featureimage" class="rounded-xl aspect-video">
-      <img class="rounded-lg" src="https://yunea.github.io/ainablog/images/logo-reactjs_hu_291afe59ae73c5de.png" alt="" width="750"
-        height="404">
+      <img class="rounded-lg" src="https://yunea.github.io/ainablog/images/default-image_hu_db4115df564905ca.jpg" alt="" width="750"
+        height="499">
       <figcaption class="text-center italic text-xs"></figcaption>
 
     </figure>
 
     <div id="content" class="mb-14">
-      <p>Cet article présente un projet scolaire mené durant le premier semestre de ma dernière année d&rsquo;ingénieur, dans le cadre de la thématique d’approfondissement (TAF) intitulé <strong>COOC – Conception d’Objets Communicants</strong>, à <strong>IMT Atlantique</strong>.</p>
-<p>Réalisé en groupe de quatre, ce projet nous a permis d’explorer des problématiques concrètes liées à l’organisation des jardins partagés, tout en mobilisant des compétences techniques avancées autour de l’Internet des Objets (IoT) et du développement logiciel. J’ai occupé le rôle de <strong>cheffe de projet</strong> ainsi que celui de <strong>développeuse back-end</strong>, en charge notamment de la mise en place de l’infrastructure <strong>Docker</strong> et du développement de l’<strong>API</strong>.</p>
-<p>Ce travail, alliant recherche de terrain et prototypage d’une solution technique, nous a permis de proposer une application innovante, pensée pour répondre aux besoins concrets liés à la gestion d&rsquo;un jardin partagé.</p>
-<h2 id="1-état-de-lart--les-jardins-partagés-entre-écologie-et-lien-social">1. État de l&rsquo;art : les jardins partagés, entre écologie et lien social</h2>
-<p>Les jardins partagés connaissent un essor notable en France, notamment dans les zones urbaines où ils répondent à un besoin croissant de nature et de convivialité. Ces espaces verts collectifs favorisent la biodiversité, renforcent les liens sociaux et contribuent à une alimentation plus durable. Leur développement s&rsquo;inscrit dans des scénarios de transition écologique, promus par des institutions comme l&rsquo;ADEME, qui valorisent des approches frugales et coopératives.​</p>
-<h3 id="conclusion-de-létat-de-lart">Conclusion de l&rsquo;état de l&rsquo;art</h3>
-<p>Notre réflexion a débuté avec deux thèmes principaux concernant les hypothèses de départ : la gestion des ressources, notamment de l’eau et la gestion des plantes en temps réel. Dans le but d’affiner ces hypothèses, nous avons par notre recherche pu identifier des premières difficultés rencontrées dans les jardins, appréhender les solutions existantes pouvant y être liées et déterminer la liste des acteurs de ces espaces, que nous avons par la suite pu rencontrer pour confirmer notre recherche documentaire et compléter certaines informations. </p>
-<p>La problématique qui ressort de toutes ces recherches est donc “Comment faciliter l’organisation des jardins partagés qui ne possèdent pas d’animateur et fédérer les habitants lorsqu’il y a un manque de compétences techniques ?”.</p>
-<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2023/10/22/jardin-partage/">Jardin Partagé – État de l&rsquo;art</a></p>
-<h2 id="2-enquête-terrain--comprendre-les-dynamiques-locales">2. Enquête terrain : comprendre les dynamiques locales</h2>
-<p>Pour mieux appréhender les réalités des jardins partagés, une enquête de terrain a été menée à Brest. Cette étude a révélé le rôle central des collectivités locales et des associations, telles que Vert le Jardin, dans la création et la gestion de ces espaces. Elle a également mis en lumière les défis liés à la coordination entre les différents acteurs et la nécessité d&rsquo;outils facilitant l&rsquo;organisation et la communication au sein des jardins.​</p>
-<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2023/10/27/jardin-partage-enquete-terrain/">Jardin Partagé – Enquête terrain</a></p>
-<h2 id="3-solution-technique--smartgarden-une-application-au-service-des-jardiniers">3. Solution technique : SmartGarden, une application au service des jardiniers</h2>
-<p>Face aux défis identifiés, le projet SmartGarden propose une solution innovante combinant technologie et accessibilité. Il s&rsquo;agit d&rsquo;une application web connectée à des capteurs, permettant aux membres d&rsquo;un jardin partagé de :​</p>
-<ul>
-<li>Suivre en temps réel les conditions du jardin (humidité, température, etc.)​</li>
-<li>Consulter et planifier les tâches à réaliser​</li>
-<li>Accéder à des fiches pratiques pour l&rsquo;entretien des cultures​</li>
-</ul>
-<p>Le système repose sur une architecture modulaire avec un boîtier de capteurs, une base de données et une interface utilisateur développée en ReactJS. L&rsquo;objectif est de faciliter la gestion des jardins, même en l&rsquo;absence de référent, en favorisant l&rsquo;autonomie et la collaboration entre les membres.​</p>
-<p>👉 Lire l&rsquo;article complet : <a href="https://telefab.fr/2024/01/15/jardin-partage-solution-technique/">Jardin Partagé – Solution Technique</a></p>
-<h2 id="ma-contribution-dans-ce-projet">Ma contribution dans ce projet</h2>
-<h3 id="cheffe-de-projet">Cheffe de projet</h3>
-<p>Dans le cadre de ce projet, j’ai assuré le rôle de <strong>cheffe de projet</strong>, avec pour missions principales :</p>
-<ul>
-<li>La <strong>répartition des tâches</strong> de manière équitable entre les membres de l’équipe, en tenant compte des compétences, disponibilités et intérêts de chacun ;</li>
-<li>L’<strong>animation des réunions hebdomadaires</strong>, afin de suivre l’avancement, identifier les blocages et ajuster les priorités si nécessaire ;</li>
-<li>La <strong>coordination globale de l’équipe</strong>, pour assurer la cohérence des travaux et le respect du planning.</li>
-</ul>
-<p>Nous avons adopté une organisation basée sur la <strong>méthode agile</strong>, et plus spécifiquement <strong>SCRUM</strong>, avec des sprints de trois semaines ponctués de points hebdomadaires. Chaque sprint était préparé en amont par la rédaction de user stories, l’attribution d’un poids (effort estimé) à chaque tâche, et leur organisation dans une application de gestion visuelle (type tableau Kanban). Ce cadre méthodologique nous a permis de garder une vue d’ensemble claire sur l’avancement, d’anticiper les éventuels blocages, et d’encourager une autonomie structurée au sein de l’équipe.</p>
-<h3 id="développeuse-backend">Développeuse backend</h3>
-<p>Le back-end de l’application se compose de trois éléments essentiels : le système d’exploitation, la base de données, et l’interface de programmation (API).</p>
-<h4 id="système-dexploitation">Système d’exploitation</h4>
-<p>Le cœur du système d’exploitation repose sur Docker. Docker est une plateforme qui permet de lancer des applications dans des conteneurs. L’objectif d’un conteneur est d’héberger des services sur un même serveur physique (dans notre cas nos machines personnelles) tout en les isolant les uns des autres.</p>
-<p>Cette plateforme nous offre également un environnement uniforme pour tous les membres du projet. Cette uniformité facilite l’intégration et le regroupement des différentes composantes développées par chacun des contributeurs.</p>
-<p>Le fonctionnement des conteneurs Docker au sein de notre infrastructure Smart Garden repose sur l’utilisation de deux composants essentiels : Docker Compose et les fichiers Dockerfile. Cette approche garantit une configuration simplifiée et une mise en œuvre efficace de l’environnement de développement.</p>
-<p>Le fichier docker-compose.yml définit l’ensemble des services et des paramètres nécessaires à notre application. Chaque service, tel que la base de données MariaDB, l’interface PHPMyAdmin, le front-end, le back-end et le service de capteurs, est configuré de manière à interagir au sein du réseau dédié smartgarden-network. Des volumes sont utilisés pour assurer la persistance des données de la base de données, tandis que les dépendances entre les services sont gérées avec l’instruction depends_on, garantissant un démarrage ordonné.</p>
-<p>Les fichiers Dockerfile, situés dans les répertoires ./frontend, ./backend, et ./sensor, définissent les instructions nécessaires pour construire les images Docker correspondantes. Chacun de ces fichiers permet de décrire l’environnement d’exécution, les dépendances et les étapes spécifiques à chaque composant de l’application. Ces fichiers Dockerfile sont intégrés dans le fichier docker-compose.yml pour assurer une cohérence lors du déploiement de l’ensemble de l’application.</p>
-<p>Une fois l’application déployée dans Docker, il est possible d’accéder au front-end, à PHPMyAdmin (pour gérer et visualiser la base de données) et à la page de l’API depuis l’adresse du localhost en sélectionnant des ports dédiés. Ces ports sont configurés dans le fichier docker-compose.yml, les fichiers Dockerfile et parfois les fichiers de configuration des services.</p>
-<h4 id="base-de-données">Base de données</h4>
-<p>Pour la gestion des données, nous avons opté pour MariaDB, un système de gestion de base de données relationnelles. Cette solution est complétée par l’utilisation de PHPMyAdmin, une interface web qui simplifie la manipulation et la visualisation des données stockées.</p>
-<p>PHPMyAdmin nous a principalement été utile au début du projet afin de mettre en place les premières versions des bases de données. Cet outil nous a permis de faire de nombreux tests avant que l’API ne soit disponible dans l’application.</p>
-<p>Dans ce projet nous avons pensé à une base de données simple. Voici le schéma de la base de données : 
-<img src="/ainablog/images/smartgarden-schema-bdd.png" alt="Image Description">
-Diagramme UML de la base de données</p>
-<h4 id="api">API</h4>
-<p>L’interface de programmation (API) repose sur FastAPI, un framework Python moderne et performant. Le serveur Python s’interface avec la base de données et expose des points d’accès pour la gestion des différents éléments nécessaires dans le site web (front-end).</p>
-<p>FastAPI utilise la librairie Pydantic pour définir les modèles de données, facilitant ainsi la validation des données entrantes et sortantes. Chaque point d’accès est défini comme une fonction asynchrone associée à une route particulière. Chaque entité (Jardin, Parcelle, Action, etc.) dispose de points d’accès spécifiques pour la création, la lecture, la mise à jour et la suppression des données.</p>
-<p>En résumé, notre API FastAPI offre un ensemble de points d’accès structurés pour la gestion des données de notre application Smart Garden et les modèles Pydantic garantissent la validité des données.</p>
-<p>Un serveur Python fonctionne en parallèle avec un script Python dédié à la récupération des relevés des capteurs à partir du protocole MQTT. Ces données sont ensuite intégrées de manière transparente dans la base de données, assurant ainsi une mise à jour constante et en temps réel.</p>
-<p><img src="/ainablog/images/smartgarden-schema-api.png" alt="Image Description">
-Schéma représentant les interactions entre les services</p>
-<p>👉 Découvrir le dépôt GitLab du projet : <a href="https://gitlab.imt-atlantique.fr/m20chevr/smartgarden">Smart Garden - GitLab</a></p>
-<h2 id="ressources">Ressources</h2>
-<ul>
-<li>Dépôt GitLab du projet : <a href="https://gitlab.imt-atlantique.fr/m20chevr/smartgarden">Smart Garden - GitLab</a></li>
-<li>Les articles du projet :
-<ul>
-<li><a href="https://telefab.fr/2023/10/22/jardin-partage/">Jardin Partagé – État de l&rsquo;art</a></li>
-<li><a href="https://telefab.fr/2023/10/27/jardin-partage-enquete-terrain/">Jardin Partagé – Enquête terrain</a></li>
-<li><a href="https://telefab.fr/2024/01/15/jardin-partage-solution-technique/">Jardin Partagé – Solution Technique</a></li>
-</ul>
-</li>
-</ul>
+      <p><img src="/ainablog/images/couverture-the-phoenix-project.jpg" alt="Image Description"></p>
+<h2 id="-résumé">📖 Résumé</h2>
+<p>Dans <em>The Phoenix Project</em>, nous suivons <strong>Bill Palmer</strong>, un manager IT récemment promu responsable des opérations informatiques chez <strong>Parts Unlimited</strong>, une entreprise en grande difficulté. À peine nommé, Bill se voit confier une mission à haut risque : sauver le <strong>Projet Phoenix</strong>, un projet logiciel stratégique censé relancer l’activité de l’entreprise… mais qui accumule les retards, les bugs, et les échecs.</p>
+<p>Très vite, Bill se retrouve submergé par les incidents, les demandes contradictoires, et les jeux de pouvoir internes. Entre pressions du comité de direction, conflits inter-équipes et crises opérationnelles à répétition, il semble impossible de remettre de l’ordre.</p>
+<p>C’est alors qu’il fait la rencontre d’un mystérieux mentor, <strong>Erik</strong>, qui l’initie à une nouvelle manière de voir l’IT : comme une <strong>chaîne de valeur</strong>, inspirée des principes du Lean et du DevOps. Avec l’aide de quelques alliés inattendus, Bill s’engage dans une transformation profonde de la culture et des pratiques de son organisation — au service de la performance, de l’innovation et de la collaboration.</p>
+<p>Ce roman, à mi-chemin entre la fiction professionnelle et le manuel de transformation agile, a marqué des milliers de lecteurs à travers le monde et est devenu une <strong>référence dans le monde du DevOps</strong>.</p>
+<h2 id="-concepts-clés-du-livre">💡 Concepts clés du livre</h2>
+<p><em>The Phoenix Project</em> met en lumière trois <strong>flux essentiels</strong>, issus des principes du <strong>DevOps</strong> :</p>
+<h3 id="1-le-flux-de-travail-flow">1. Le Flux de travail (Flow)</h3>
+<p>Optimiser le passage des livrables de la conception à la production. Cela passe par l’automatisation, la visualisation des étapes, et la réduction des goulots d’étranglement.</p>
+<h3 id="2-les-boucles-de-feedback">2. Les Boucles de feedback</h3>
+<p>Créer un retour rapide entre les différentes étapes du cycle de développement pour corriger les erreurs tôt, s’ajuster vite, et garantir la qualité des livrables.</p>
+<h3 id="3-lapprentissage-continu">3. L’Apprentissage continu</h3>
+<p>Favoriser l’expérimentation, la prise de risques calculée, et la montée en compétence. L’échec est vu comme une opportunité d’apprentissage, et non comme une faute.</p>
+<p>Derrière ces trois flux, le livre aborde également des sujets concrets : <strong>gestion des incidents</strong>, <strong>intégration continue</strong>, <strong>priorisation des tâches</strong>, <strong>communication entre équipes</strong>, ou encore <strong>alignement business-tech</strong>.</p>
+<h2 id="-mon-avis-personnel">✨ Mon avis personnel</h2>
+<p><em>The Phoenix Project</em> a été <strong>mon tout premier roman tech</strong>, et je l’ai trouvé passionnant. L’histoire est bien construite, les personnages sont crédibles, et surtout, les problématiques sont <strong>profondément réalistes</strong>.</p>
+<p>J’ai été frappée de voir à quel point <strong>les enjeux techniques sont indissociables des dynamiques humaines</strong> dans une entreprise. On ne parle pas simplement de code ou de serveurs, mais de collaboration, de confiance, de pression managériale, et de vision stratégique.</p>
+<p>Ce que j’ai particulièrement apprécié, c’est que le livre <strong>explique des concepts complexes de manière fluide</strong>, sans jamais tomber dans la lourdeur théorique. On apprend presque sans s’en rendre compte, en suivant les hauts et les bas de Bill et de son équipe.</p>
+<p>C’est une lecture que je recommande à toutes les personnes qui évoluent dans le milieu tech — qu’elles soient débutantes ou expérimentées. Elle permet de <strong>mieux comprendre les tensions entre IT et métier</strong>, et donne de vraies pistes pour y remédier.</p>
+<p>Bref : un roman <strong>pédagogique, prenant et inspirant</strong>, qui donne envie de faire partie du changement.</p>
 
 
     <ul id="taxonomy" class="not-prose flex items-center space-x-4 flex-nowrap whitespace-nowrap overflow-x-auto">
 
       <li class="font-semibold my-4">Tags:</li>
-        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/reactjs/">Reactjs</a></li>
-        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/docker/">Docker</a></li>
-        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/fastapi/">FastAPI</a></li>
+        <li ><a class="py-2 px-6 border rounded-full hover:bg-zinc-100 active:bg-zinc-300" href="/ainablog/tags/devops/">Devops</a></li>
     </ul>
 </div>
 
@@ -255,19 +210,19 @@ Schéma représentant les interactions entre les services</p>
 
         <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="https://yunea.github.io/ainablog/posts/2025/projet-erp-modulaire/"></a>
+	<a class="insert-link" href="https://yunea.github.io/ainablog/posts/2025/the-unicorn-project/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://yunea.github.io/ainablog/images/logo-reactjs_hu_291afe59ae73c5de.png" alt="Projet PROCOM – Développement d’un ERP modulaire" width="750" height="404">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="https://yunea.github.io/ainablog/images/default-image_hu_db4115df564905ca.jpg" alt="The Unicorn Project - Gene Kim" width="750" height="499">
 
 	  </figure>
 
 	<div class="p-6">
 
-		<time datetime="2025-04-13T00:00:00&#43;00:00">Apr 13, 2025</time>
+		<time datetime="2025-04-15T00:00:00&#43;00:00">Apr 15, 2025</time>
 
-		<h3 class="my-4 text-2xl font-bold">Projet PROCOM – Développement d’un ERP modulaire</h3>
+		<h3 class="my-4 text-2xl font-bold">The Unicorn Project - Gene Kim</h3>
 
-		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">L’objectif de ce projet est de concevoir un modèle pédagogique illustrant les enjeux des systèmes distribués.</p>
+		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">Une histoire de développeurs, de disruption digitale et de survie à l&#39;ère des datas</p>
 
 	</div>
 </article>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Aina</title>
-    <link>https://yunea.github.io/ainablog/posts/</link>
-    <description>Recent content in Posts on Aina</description>
+    <title>Devops on Aina</title>
+    <link>https://yunea.github.io/ainablog/tags/devops/</link>
+    <description>Recent content in Devops on Aina</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yunea.github.io/ainablog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yunea.github.io/ainablog/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Phoenix Project - Gene Kim</title>
       <link>https://yunea.github.io/ainablog/posts/2025/the-phoenix-project/</link>
@@ -21,27 +21,6 @@
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://yunea.github.io/ainablog/posts/2025/the-unicorn-project/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://yunea.github.io/ainablog/images/couverture-the-unicorn-project.jpg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;-résumé&#34;&gt;📖 Résumé&lt;/h2&gt;&#xA;&lt;p&gt;Dans &lt;em&gt;The Unicorn Project&lt;/em&gt;, &lt;strong&gt;Maxine&lt;/strong&gt;, développeuse senior et architecte informatique chez Parts Unlimited, est brutalement écartée de son poste et reléguée au tristement célèbre &lt;strong&gt;Phoenix Project&lt;/strong&gt;, après avoir été rendue responsable d&amp;rsquo;une panne critique du système de paie. Ce transfert punitif la plonge dans un environnement &lt;strong&gt;bureaucratique étouffant&lt;/strong&gt;, où toute prise d’initiative semble paralysée par des processus d’approbation kafkaïens.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Projet COoC - Smart garden</title>
-      <link>https://yunea.github.io/ainablog/posts/2025/projet-smart-garden/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/posts/2025/projet-smart-garden/</guid>
-      <description>&lt;p&gt;Cet article présente un projet scolaire mené durant le premier semestre de ma dernière année d&amp;rsquo;ingénieur, dans le cadre de la thématique d’approfondissement (TAF) intitulé &lt;strong&gt;COOC – Conception d’Objets Communicants&lt;/strong&gt;, à &lt;strong&gt;IMT Atlantique&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Projet PROCOM – Développement d’un ERP modulaire</title>
-      <link>https://yunea.github.io/ainablog/posts/2025/projet-erp-modulaire/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/posts/2025/projet-erp-modulaire/</guid>
-      <description>&lt;h2 id=&#34;-contexte&#34;&gt;🎯 Contexte&lt;/h2&gt;&#xA;&lt;p&gt;Lors de ma dernière année à l’&lt;strong&gt;IMT Atlantique&lt;/strong&gt;, j’ai participé, avec mon groupe, au développement d’un &lt;strong&gt;ERP modulaire&lt;/strong&gt; dans le cadre de l’unité d’enseignement &lt;strong&gt;PROCOM&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Comment j&#39;ai créé mon site web avec Hugo</title>
-      <link>https://yunea.github.io/ainablog/posts/2025/creation-de-site-web-avec-hugo/</link>
-      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunea.github.io/ainablog/posts/2025/creation-de-site-web-avec-hugo/</guid>
-      <description>&lt;h2 id=&#34;comment-jai-créé-mon-site-web-avec-hugo&#34;&gt;Comment j&amp;rsquo;ai créé mon site web avec Hugo&lt;/h2&gt;&#xA;&lt;p&gt;Créer un site web peut sembler intimidant, mais avec des outils modernes comme Hugo, c’est à la fois rapide, efficace et très flexible. Dans cet article, je vous explique comment j’ai conçu et réalisé ce site web, de A à Z.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
