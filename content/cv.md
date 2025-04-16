@@ -78,7 +78,11 @@ Mon rôle au sein de l’équipe consistait à prendre en charge des projets de 
 
 ### Chargée des systèmes d’information géographique - Alternance (Août 2020 - Août 2021)
 
+Dans le cadre de ma formation en DUT Réseaux et Télécommunications, j’ai eu l’opportunité de réaliser une alternance d’un an au sein d’Orange, à Vannes. Intégrée en tant que chargée des systèmes d’information géographique, j’accompagnais mon tuteur dans la réalisation de ses missions quotidiennes. Cette expérience m’a permis de découvrir le fonctionnement d’un grand groupe, de travailler en lien avec différents métiers, et de me familiariser avec les outils et processus liés à la gestion des données infographiques.
+
 #### Contexte
+
+Le projet principal portait sur la mise à jour de la cartographie du réseau. Mon rôle consistait à optimiser et contrôler la qualité des données infographiques, afin de garantir la fiabilité et la cohérence des informations utilisées par les différents services. J’assurais également la coordination avec les chargés d’affaires pour que les données soient correctement mises à jour en fonction des évolutions du terrain. Ce travail de fond contribuait à maintenir une base de données cartographiques précise, essentielle au bon fonctionnement des outils internes et à la planification des interventions.
 
 #### Missions
 - Optimisation et contrôle qualité des données infographiques, garantissant la fiabilité et la cohérence des informations.
