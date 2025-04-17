@@ -11,7 +11,7 @@ categories:
 tags:
 - reactjs
 - docker
-- fastAPI
+- fastapi
 draft: false
 ---
 
